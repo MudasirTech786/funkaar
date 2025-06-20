@@ -68,8 +68,8 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 3,
-    title: 'Portfolio',
-    link: '/portfolio-masonry',
+    title: 'WORK',
+    link: '/work',
     dropdown_menus:[
       { title: 'Portfolio', link: '/portfolio-masonry' },
     ],

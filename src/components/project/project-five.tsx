@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { UpArrow } from "../svg";
 import Link from "next/link";
+import testImage from "@/assets/img/inner-project/work/work-1.png";
 // images
-import p_img_1 from "@/assets/img/inner-project/masonary/masonary-1.jpg";
+import p_img_1 from "@/assets/img/inner-project/work/work-1.png";
 import p_img_2 from "@/assets/img/inner-project/masonary/masonary-2.jpg";
 import p_img_3 from "@/assets/img/inner-project/masonary/masonary-3.jpg";
 import p_img_4 from "@/assets/img/inner-project/masonary/masonary-4.jpg";
@@ -81,15 +82,15 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                 className="tp-project-5-2-thumb fix mb-140 p-relative not-hide-cursor"
               >
                 <Link className="cursor-hide" href="/portfolio-details-1">
-                  <span className="tp_img_reveal">
+                  <div className="tp_img_reveal">
                     <div className="tp_img_reveal">
                       <Image
-                        src={item.img}
+                        src={testImage}
                         alt="project-img"
                         style={{ height: "auto" }}
                       />
                     </div>
-                  </span>
+                  </div>
                   <div className="tp-project-5-2-category tp_fade_anim">
                     <span>{item.category}</span>
                   </div>

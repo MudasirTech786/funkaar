@@ -287,4 +287,13 @@
     }
 }
 
+.tp-inner-header-area.header-sticky {
+  .tp-header-bar button span {
+    background-color: var(--tp-common-white); // force white color
+  }
+}
+
+
+
+
 
