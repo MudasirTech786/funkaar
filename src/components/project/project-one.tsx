@@ -9,7 +9,7 @@ import p_1 from "@/assets/img/inner-about/about/about-1.jpg";
 import p_2 from "@/assets/img/inner-about/about/about-2.png";
 import p_3 from "@/assets/img/inner-about/about/about-3.jpg";
 import p_4 from "@/assets/img/inner-about/about/about-4.png";
-import p_5 from "@/assets/img/inner-about/about/about-5.jpg";
+import p_5 from "@/assets/img/inner-about/about/about-7.jpg";
 import p_6 from "@/assets/img/inner-about/about/about-6.png";
 
 // type
