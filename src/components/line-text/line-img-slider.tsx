@@ -5,11 +5,15 @@ import Marquee from "react-fast-marquee";
 // images
 import port_1 from "@/assets/img/inner-service/portfolio/port-2.jpg";
 import port_2 from "@/assets/img/inner-service/portfolio/port-3.jpg";
-import port_3 from "@/assets/img/inner-service/portfolio/port-4.png";
+import port_3 from "@/assets/img/inner-service/portfolio/port-4.jpg";
 import port_4 from "@/assets/img/inner-service/portfolio/port-1.jpg";
+import port_5 from "@/assets/img/inner-service/portfolio/port-5.jpg";
+import port_6 from "@/assets/img/inner-service/portfolio/port-6.png";
+import port_7 from "@/assets/img/inner-service/portfolio/port-7.png";
+import port_8 from "@/assets/img/inner-service/portfolio/port-8.png";
 
 // images
-const port_images = [port_1, port_1, port_2, port_3, port_4, port_1, port_2];
+const port_images = [port_1, port_2, port_3, port_4, port_5, port_6, port_7, port_8];
 
 export default function LineImgSlider() {
   return (
