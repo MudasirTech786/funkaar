@@ -15,7 +15,11 @@ import HeroBannerOne from "@/components/hero-banner/hero-banner-one";
 import VideOne from "@/components/video/video-one";
 import BrandOne from "@/components/brand/brand-one";
 import ServiceOne from "@/components/service/service-one";
-import ServiceFive from "@/components/service/service-five";
+import ServiceTwo from "@/components/service/service-2";
+import ServiceThree from "@/components/service/service-3";
+import ServiceFour from "@/components/service/service-4";
+import ServiceSix from "@/components/service/service-5";
+import ServiceFive from "@/components/service/service-one";
 import ProjectOne from "@/components/project/project-one";
 import AwardOne from "@/components/award/award-one";
 import TeamOne from "@/components/team/team-one";
@@ -23,6 +27,7 @@ import TestimonialOne from "@/components/testimonial/testimonial-one";
 import Testimonial from "@/components/studio-panels/studio-panel-44";
 import PortfolioShowcaseMain from "@/pages/portfolio/portfolio-showcase-main";
 import FooterOne from "@/layouts/footers/footer-one";
+import HeaderEleven from "@/layouts/headers/header-eleven";
 
 // images
 import shape_1 from '@/assets/img/home-01/footer/footer-circle-shape-1.png';
@@ -86,7 +91,7 @@ const HomeMain = () => {
 
 
       {/* header area start */}
-      <HeaderOne />
+     <HeaderEleven transparent={true} />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -108,10 +113,14 @@ const HomeMain = () => {
             
             {/* service area */}
             <ServiceOne />
+            <ServiceTwo />
+            <ServiceThree />
+            <ServiceFour />
+            <ServiceSix /><br />
             {/* service area */}
             
             {/* service area */}
-            <ServiceFive />
+            {/* <ServiceFive /> */}
             {/* service area */}
 
             <PortfolioShowcaseMain /><br />

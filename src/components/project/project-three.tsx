@@ -50,7 +50,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-04/portfolio/port-4.mp4" type="video/mp4" />
+                  <source src="/assets/img/home-04/portfolio/port-5.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-04/portfolio/port-3.mp4" type="video/mp4" />
+                  <source src="/assets/img/home-01/hero/like-1.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
