@@ -4,8 +4,8 @@ import { UpArrow } from "../svg";
 import Link from "next/link";
 import testImage from "@/assets/img/inner-project/work/work-1.png";
 // images
-import p_img_1 from "@/assets/img/inner-project/work/work-1.png";
-import p_img_2 from "@/assets/img/inner-project/masonary/masonary-2.jpg";
+import p_img_1 from "@/assets/img/inner-project/work/masonary-1.jpg";
+import p_img_2 from "@/assets/img/inner-project/masonary/masonary-1.jpg";
 import p_img_3 from "@/assets/img/inner-project/masonary/masonary-3.jpg";
 import p_img_4 from "@/assets/img/inner-project/masonary/masonary-4.jpg";
 import p_img_5 from "@/assets/img/inner-project/masonary/masonary-5.jpg";
@@ -17,6 +17,7 @@ const project_data = [
     title: "Art Direction",
     category: "Branding",
     img: p_img_1,
+    video: "/videos/sample-1.mp4",
     year: 2024,
   },
   {
@@ -63,37 +64,31 @@ type IProps = {
 export default function ProjectFive({ style_2 = false }: IProps) {
   return (
     <div
-      className={`tp-project-5-2-area pb-130 ${
-        style_2 ? "" : "tp-project-5-2-pt"
-      }`}
+      className="p-project-5-2-area pb-130"
     >
-      {/* {!style_2 && (
-        <div className="row">
-          <div className="col-xl-12">
-            <LineTextFour />
-          </div>
-        </div>
-      )} */}
       <div className="container">
         <div className="row gx-140">
           {project_data.map((item) => (
             <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">
               <div
-                className="tp-project-5-2-thumb fix mb-140 p-relative not-hide-cursor"
+                className="tp-project-5-2-thumb fix mb-140 p-relative"
               >
-                <Link className="cursor-hide" href="/portfolio-details-1">
+                <Link className="" href="/portfolio-details-1">
                   <div className="tp_img_reveal">
                     <div className="tp_img_reveal">
                       <Image
-                        src={testImage}
+                        src={item.img}
                         alt="project-img"
-                        style={{ height: "auto" }}
+                        width={600}
+                        height={400}
+                        style={{ height: "auto", width: "100%" }}
                       />
+
                     </div>
                   </div>
-                  <div className="tp-project-5-2-category tp_fade_anim">
+                  {/* <div className="tp-project-5-2-category tp_fade_anim">
                     <span>{item.category}</span>
-                  </div>
+                  </div> */}
                   <div className="tp-project-5-2-content tp_fade_anim">
                     <span className="tp-project-5-2-meta">{item.year}</span>
                     <h4 className="tp-project-5-2-title-sm">{item.title}</h4>
@@ -108,9 +103,8 @@ export default function ProjectFive({ style_2 = false }: IProps) {
             <div className="tp-projct-5-2-btn-box d-flex justify-content-center">
               <div className="tp-hover-btn-wrapper">
                 <Link
-                  className={`tp-btn-circle ${
-                    style_2 ? "style-2" : ""
-                  } tp-hover-btn-item tp-hover-btn`}
+                  className={`tp-btn-circle ${style_2 ? "style-2" : ""
+                    } tp-hover-btn-item tp-hover-btn`}
                   href="/portfolio-details-1"
                 >
                   <span className="tp-btn-circle-text">

@@ -52,7 +52,7 @@ const PortfolioMasonryMain = () => {
                       </h3>
                     </div>
                     <div className="tm-hero-text tp_title_anim">
-                      <p>
+                      <p className="text-white">
                         A showcase of our creativity, strategy, and impact—crafted with purpose, delivered with excellence.
                       </p>
                     </div>

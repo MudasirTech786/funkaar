@@ -3,7 +3,7 @@ import React from "react";
 import { Leaf } from "../svg";
 
 const VideoTwo = () => {
-  
+
   return (
     <div className="tp-video-area">
       <div className="container container-1870">
@@ -18,21 +18,21 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="https://html.hixstudio.net/videos/liko/liko-4.mp4"
+                  src="/assets/img/home-01/hero/contact.mp4"
                   type="video/mp4"
                 />
               </video>
               <div className="tp-video-content text-center">
                 <span className="tp-video-subtitle">
                   <span>
-                    <Leaf />
+                    {/* <Leaf /> */}
                   </span>
-                  Work in motion
+                  Funkaar
                 </span>
-                <h2 className="tp-video-title">Play Reel</h2>
-                <p>
-                  Our work is best experienced in motion. {"Don't"}
-                  forget to put on your headphones.
+                <h2 className="tp-video-title">Let’s Create Something Extraordinary</h2>
+                <p className="text-white">
+                  Every great story starts with a conversation.<br />
+                  <b className="text-white">Whether you are a brand looking to make an impact or a creative partner ready to collaborate, we’re all ears.</b>
                 </p>
               </div>
             </div>

@@ -12,6 +12,7 @@ import HeaderEleven from "@/layouts/headers/header-eleven";
 import ContactTwo from "@/components/contact/contact-two";
 import ContactLocation from "@/components/contact/contact-location";
 import FooterTwo from "@/layouts/footers/footer-two";
+import VideTwo from "@/components/video/video-two";
 // animation
 import { charAnimation } from "@/utils/title-animation";
 
@@ -44,20 +45,24 @@ const ContactMain = () => {
               <div className="tm-hero-area tm-hero-ptb">
                 <div className="container">
                   <div className="row">
-                    <div className="col-xl-12">
+                      {/* video area */}
+                      <VideTwo />
+                      {/* video area */}
+                    {/* <div className="col-xl-12">
+
                       <div className="tm-hero-content">
-                        <span className="tm-hero-subtitle">FUNKAAR</span>
+                        
                         <h3 className="tm-hero-title tp-char-animation">
                           Let’s Create Something Extraordinary
                         </h3>
                       </div>
                       <div className="tm-hero-text tp_title_anim">
-                      <p>
-                      Every great story starts with a conversation.<br />
-                      <b>Whether you are a brand looking to make an impact or a creative partner ready to collaborate, we’re all ears.</b>
-                      </p>
+                        <p className="text-white">
+                          Every great story starts with a conversation.<br />
+                          <b className="text-white">Whether you are a brand looking to make an impact or a creative partner ready to collaborate, we’re all ears.</b>
+                        </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -74,7 +79,7 @@ const ContactMain = () => {
             </main>
 
             {/* footer area */}
-            <FooterTwo topCls=""/>
+            <FooterTwo topCls="" />
             {/* footer area */}
           </div>
         </div>
