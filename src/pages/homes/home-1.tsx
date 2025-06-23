@@ -100,23 +100,22 @@ const HomeMain = () => {
             
             {/* hero area start */}
             <HeroBannerOne />
+            {/* hero area end */}
 
             {/* video area */}
             <VideOne />
             {/* video area */}
-            {/* hero area end */}
-
 
             {/* brand area */}
             <BrandOne /><br /><br />
             {/* brand area */}
             
             {/* service area */}
-            <ServiceOne />
+            <ServiceSix />
             <ServiceTwo />
             <ServiceThree />
             <ServiceFour />
-            <ServiceSix /><br />
+            <ServiceOne /><br />
             {/* service area */}
             
             {/* service area */}

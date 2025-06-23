@@ -72,7 +72,7 @@ const ServiceOne = () => {
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
-                <source src="/assets/img/home-04/portfolio/port-8.mp4" type="video/mp4" />
+                <source src="/assets/img/home-04/portfolio/port-10.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
