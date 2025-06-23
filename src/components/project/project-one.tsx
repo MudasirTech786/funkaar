@@ -57,7 +57,7 @@ const project_data: IProject[] = [
   { id: 5, cls: "tp-project-ml", cls_2: "height-5", img: p_5 },
   { id: 6, cls: "", cls_2: "height-6", img: p_6 },
   { id: 7, cls: "", cls_2: "height-7", img: p_7 },
-  { id: 8, cls: "", cls_2: "height-8", img: p_8 },
+  // { id: 8, cls: "", cls_2: "height-8", img: p_8 },
   { id: 9, cls: "", cls_2: "height-9", img: p_9 },
 ];
 
@@ -94,7 +94,7 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
           {/* Column 3 */}
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="tp-project-right-wrap">
-              {[2, 5, 8].map((i) => (
+              {[2, 5].map((i) => (
                 <ProjectItem key={project_data[i].id} item={project_data[i]} />
               ))}
             </div>
