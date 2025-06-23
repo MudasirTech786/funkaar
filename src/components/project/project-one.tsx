@@ -8,9 +8,12 @@ import Link from "next/link";
 import p_1 from "@/assets/img/inner-about/about/about-8.png";
 import p_2 from "@/assets/img/inner-about/about/about-3.jpg";
 import p_3 from "@/assets/img/inner-about/about/port-3.jpg";
-import p_4 from "@/assets/img/inner-about/about/about-4.png";
+import p_4 from "@/assets/img/inner-about/about/shape-1.png";
 import p_5 from "@/assets/img/inner-about/about/about-7.jpg";
 import p_6 from "@/assets/img/inner-about/about/about-6.png";
+import p_7 from "@/assets/img/inner-about/about/about-9.png";
+import p_8 from "@/assets/img/inner-about/about/about-10.jpg";
+import p_9 from "@/assets/img/inner-about/about/about-11.jpg";
 
 // type
 type IProject = {
@@ -53,6 +56,9 @@ const project_data: IProject[] = [
   { id: 4, cls: "", cls_2: "height-4", img: p_4 },
   { id: 5, cls: "tp-project-ml", cls_2: "height-5", img: p_5 },
   { id: 6, cls: "", cls_2: "height-6", img: p_6 },
+  { id: 7, cls: "", cls_2: "height-7", img: p_7 },
+  { id: 8, cls: "", cls_2: "height-8", img: p_8 },
+  { id: 9, cls: "", cls_2: "height-9", img: p_9 },
 ];
 
 // ⬆️ ProjectItem already updated above
@@ -67,22 +73,56 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
     <>
       <div className="">
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6">
+          {/* Column 1 */}
+          <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="tp-project-left-wrap">
-              {project_data.slice(0, 3).map((item, i) => (
-                <ProjectItem key={item.id} item={item} />
+              {[0, 3, 6].map((i) => (
+                <ProjectItem key={project_data[i].id} item={project_data[i]} />
               ))}
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6">
+
+          {/* Column 2 */}
+          <div className="col-xl-4 col-lg-4 col-md-6">
+            <div className="tp-project-center-wrap">
+              {[1, 4, 7].map((i) => (
+                <ProjectItem key={project_data[i].id} item={project_data[i]} />
+              ))}
+            </div>
+          </div>
+
+          {/* Column 3 */}
+          <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="tp-project-right-wrap">
-              {project_data.slice(3, 6).map((item) => (
-                <ProjectItem key={item.id} item={item} />
+              {[2, 5, 8].map((i) => (
+                <ProjectItem key={project_data[i].id} item={project_data[i]} />
               ))}
             </div>
           </div>
+
+          <div className="col-xl-12 col-lg-12">
+            <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
+              <video
+                loop
+                muted
+                autoPlay
+                playsInline
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                  borderRadius: '8px' // optional for soft corners
+                }}
+              >
+                <source src="/assets/img/inner-about/about/Rohma.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
         </div>
       </div>
+
     </>
   );
 };

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 // images
 import ser_img_1 from "@/assets/img/inner-service/service/service-1.png";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.png";
+import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.png";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 import { RightArrow, ShapeTwo } from "../svg";
@@ -12,34 +12,6 @@ import Link from "next/link";
 const service_data = [
   {
     id: 1,
-    img: ser_img_1,
-    subtitle: "Strategy",
-    title: "Strategy",
-    text: "Every great campaign starts with a clear direction. We analyze data, trends, and audience behavior to craft strategies that position your brand for success.",
-    lists: [
-      "Social Media Strategy",
-      "Brand Positioning",
-      "Audience Understanding",
-      "Business Insights",
-      "Audience + Competitor Insights",
-    ],
-  },
-  {
-    id: 2,
-    img: ser_img_3,
-    subtitle: "Digital Marketing",
-    title: "Digital Marketing",
-    text: "Results-driven digital solutions to enhance visibility, engagement, and conversions.",
-    lists: [
-      "SEO (Search Engine Optimization)",
-      "Paid Advertising",
-      "Analytics & Performance Tracking",
-      "Email Marketing",
-      "SEM",
-    ],
-  },
-  {
-    id: 3,
     img: ser_img_2,
     subtitle: "Creative & Content Lab",
     title: "Creative & Content Lab",
@@ -63,6 +35,34 @@ const service_data = [
       "Motion Graphics",
       "Animation",
       "Event videos / photography",
+    ],
+  },
+  {
+    id: 2,
+    img: ser_img_3,
+    subtitle: "Digital Marketing",
+    title: "Digital Marketing",
+    text: "Results-driven digital solutions to enhance visibility, engagement, and conversions.",
+    lists: [
+      "SEO (Search Engine Optimization)",
+      "Paid Advertising",
+      "Analytics & Performance Tracking",
+      "Email Marketing",
+      "SEM",
+    ],
+  },
+  {
+    id: 3,
+    img: ser_img_1,
+    subtitle: "Strategy",
+    title: "Strategy",
+    text: "Every great campaign starts with a clear direction. We analyze data, trends, and audience behavior to craft strategies that position your brand for success.",
+    lists: [
+      "Social Media Strategy",
+      "Brand Positioning",
+      "Audience Understanding",
+      "Business Insights",
+      "Audience + Competitor Insights",
     ],
   }
   
@@ -108,7 +108,7 @@ export default function ServiceSix() {
                                 {list.title}
                                 <ul style={{ paddingLeft: "20px", marginTop: "5px" }}>
                                   {list.subItems.map((subItem, subIndex) => (
-                                    <li key={subIndex} style={{ marginTop: "8px" }}>{subItem}</li>
+                                    <li key={subIndex} style={{ marginTop: "2px" }}>{subItem}</li>
                                   ))}
                                 </ul>
                               </li>
@@ -116,19 +116,6 @@ export default function ServiceSix() {
                           )}
                         </ul>
                       </div>
-
-                      {/* <div className="sv-service-btn">
-                        <Link
-                          className="tp-btn-zikzak zikzak-inner p-relative"
-                          href="/service-details"
-                        >
-                          <span className="zikzak-content">
-                            See <br /> Details
-                            <RightArrow clr="currentColor" />
-                          </span>
-                          <ShapeTwo />
-                        </Link>
-                      </div> */}
                     </div>
                   </div>
                 </div>

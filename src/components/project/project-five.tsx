@@ -1,96 +1,215 @@
 import React from "react";
 import Image from "next/image";
-import { UpArrow } from "../svg";
 import Link from "next/link";
-import testImage from "@/assets/img/inner-project/work/work-1.png";
-// images
-import p_img_1 from "@/assets/img/inner-project/work/masonary-1.jpg";
-import p_img_2 from "@/assets/img/inner-project/masonary/masonary-1.jpg";
-import p_img_3 from "@/assets/img/inner-project/masonary/masonary-3.jpg";
-import p_img_4 from "@/assets/img/inner-project/masonary/masonary-4.jpg";
-import p_img_5 from "@/assets/img/inner-project/masonary/masonary-5.jpg";
-import p_img_6 from "@/assets/img/inner-project/masonary/masonary-6.jpg";
+import { UpArrow } from "../svg";
 
+// images
+import p_img_2 from "@/assets/img/inner-project/masonary/masonary-1.jpg";
+
+// video-enabled project data
 const project_data = [
   {
     id: 1,
-    title: "Art Direction",
+    title: "Bhegum Innayat Welfare Society",
     category: "Branding",
-    img: p_img_1,
-    video: "/videos/sample-1.mp4",
+    img: "p_img_2",
+    video: "/assets/img/inner-project/masonary/Bhegum Innayat Welfare Society.mp4",
     year: 2024,
   },
   {
     id: 2,
-    title: "Petit Navire",
+    title: "Nilofer Shahid",
     category: "Branding",
-    img: p_img_2,
+    video: "/assets/img/inner-project/masonary/Nilofer Shahid.mp4",
+    img: "p_img_2",
     year: 2024,
   },
   {
     id: 3,
-    title: "Big dream",
+    title: "Oppo-DVC",
     category: "Branding",
-    img: p_img_3,
+    video: "/assets/img/home-04/portfolio/port-2.mp4",
+    img: "p_img_2",
     year: 2024,
   },
   {
     id: 4,
-    title: "The Stage",
+    title: "Oppo-F17 PRO",
     category: "Branding",
-    img: p_img_4,
+    video: "/assets/img/home-04/portfolio/port-11.mp4",
+    img: "p_img_2",
     year: 2024,
   },
   {
     id: 5,
-    title: "Big dream",
+    title: "Abacus consulting",
     category: "Branding",
-    img: p_img_5,
+    video: "/assets/img/inner-project/masonary/Abacus consulting.mp4",
+    img: "p_img_2",
     year: 2024,
   },
   {
     id: 6,
-    title: "Sed Lectus",
+    title: "Nilofer Shahid",
     category: "Concept",
-    img: p_img_6,
+    video: "/assets/img/home-04/portfolio/port-1.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 7,
+    title: "Yamaha",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/yamaha.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 8,
+    title: "Swyft",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Swyft.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 9,
+    title: "SOS Childrens Villages 2018",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/SOS Childrens Villages 2018.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 10,
+    title: "Seedout DVC",
+    category: "Branding",
+    video: "/assets/img/home-04/portfolio/port-10.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 11,
+    title: "Oppo - Corporate Profile IOT devices",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Oppo - Corporate Profile IOT devices.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 12,
+    title: "Monsanto",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Monsanto.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 13,
+    title: "Karandaaz",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Karandaaz.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 14,
+    title: "Human Capital Index Pakistan",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Human Capital Index Pakistan.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 15,
+    title: "Hairoil-4th JUly-ishq_mobile",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Hairoil-4th JUly-ishq_mobile.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 16,
+    title: "ADB (Asian Development Bank)",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/ADB (Asian Development Bank).mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 17,
+    title: "GreenBrilliance",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/GreenBrilliance.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 18,
+    title: "Lums",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Lums.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 19,
+    title: "Seed Out documentary",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Seed Out documentary.mp4",
+    img: "p_img_2",
+    year: 2024,
+  },
+  {
+    id: 20,
+    title: "Select & Airlink",
+    category: "Branding",
+    video: "/assets/img/inner-project/masonary/Select & Airlink.mp4",
+    img: "p_img_2",
     year: 2024,
   },
 ];
 
-// prop type
 type IProps = {
   style_2?: boolean;
 };
+
 export default function ProjectFive({ style_2 = false }: IProps) {
   return (
-    <div
-      className="p-project-5-2-area pb-130"
-    >
+    <div className="p-project-5-2-area pb-130">
       <div className="container">
         <div className="row gx-140">
           {project_data.map((item) => (
             <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">
-              <div
-                className="tp-project-5-2-thumb fix mb-140 p-relative"
-              >
-                <Link className="" href="/portfolio-details-1">
+              <div className="tp-project-5-2-thumb fix mb-140 p-relative">
+                <Link href="/portfolio-details-1">
                   <div className="tp_img_reveal">
-                    <div className="tp_img_reveal">
+                    {item.video ? (
+                      <video
+                        src={item.video}
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        style={{
+                          width: "100%",
+                          height: "auto",
+                          objectFit: "cover",
+                          borderRadius: "12px"
+                        }}
+                      />
+                    ) : (
                       <Image
                         src={item.img}
                         alt="project-img"
                         width={600}
                         height={400}
-                        style={{ height: "auto", width: "100%" }}
+                        style={{ width: "100%", height: "auto" }}
                       />
-
-                    </div>
+                    )}
                   </div>
-                  {/* <div className="tp-project-5-2-category tp_fade_anim">
-                    <span>{item.category}</span>
-                  </div> */}
                   <div className="tp-project-5-2-content tp_fade_anim">
-                    <span className="tp-project-5-2-meta">{item.year}</span>
+                    {/* <span className="tp-project-5-2-meta">{item.year}</span> */}
                     <h4 className="tp-project-5-2-title-sm">{item.title}</h4>
                   </div>
                 </Link>
@@ -98,13 +217,13 @@ export default function ProjectFive({ style_2 = false }: IProps) {
             </div>
           ))}
         </div>
-        <div className="row">
+
+        {/* <div className="row">
           <div className="col-xl-12">
             <div className="tp-projct-5-2-btn-box d-flex justify-content-center">
               <div className="tp-hover-btn-wrapper">
                 <Link
-                  className={`tp-btn-circle ${style_2 ? "style-2" : ""
-                    } tp-hover-btn-item tp-hover-btn`}
+                  className={`tp-btn-circle ${style_2 ? "style-2" : ""} tp-hover-btn-item tp-hover-btn`}
                   href="/portfolio-details-1"
                 >
                   <span className="tp-btn-circle-text">
@@ -118,7 +237,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
