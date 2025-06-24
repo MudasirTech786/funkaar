@@ -642,104 +642,134 @@
         }
     }
 }
-.sv-service{
-    &-content-wrap{
-        height: 100%;
-        width: 100%;
-        padding: 110px;
-        background-color: var(--tp-common-black-2);
-        @media #{$lg}{
-            padding: 80px;
-        }
-        @media #{$xs}{
-            padding: 80px 30px;
-        }
+.sv-service {
+  &-item {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 680px; 
+    
+    @media #{$md}, #{$sm}, #{$xs} {
+      flex-direction: column;
+      min-height: auto;
     }
-    &-subtitle{
-        font-size: 18px;
+  }
+
+  &-thumb {
+    flex: 1;
+    height: 100%;
+    & img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+
+  &-content-wrap {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    padding: 110px;
+    background-color: var(--tp-common-black-2);
+    display: flex;
+    align-items: center;
+
+    @media #{$lg} {
+      padding: 80px;
+    }
+    @media #{$xs} {
+      padding: 80px 30px;
+      align-items: flex-start;
+    }
+  }
+
+  &-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 20px;
+    display: inline-block;
+
+    & i {
+      font-style: normal;
+      &::after {
+        content: '';
+        height: 1px;
+        width: 40px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.20);
+        transform: translateY(-4px);
+        margin: 0px 11px;
+      }
+    }
+  }
+
+  &-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1.6px;
+    color: var(--tp-common-white);
+  }
+
+  &-text {
+    & p {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      color: rgba(255, 255, 255, 0.60);
+      max-width: 435px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &-list {
+    margin-bottom: 50px;
+
+    ul {
+      & li {
+        font-size: 16px;
         font-weight: 500;
         line-height: 1;
-        color: rgba(255, 255, 255, 0.60);
-        margin-bottom: 20px;
-        display: inline-block;
-        & i{
-            font-style: normal;
-            &::after{
-                content: '';
-                height: 1px;
-                width: 40px;
-                display: inline-block;
-                background: rgba(255, 255, 255, 0.20);
-                transform: translateY(-4px);
-                margin: 0px 11px;
-            }
+        margin-bottom: 15px;
+        position: relative;
+        padding-left: 15px;
+        list-style-type: none;
+        color: rgba(255, 255, 255, 0.90);
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 6px;
+          left: 0;
+          height: 4px;
+          width: 4px;
+          background-color: rgba(255, 255, 255, 0.90);
         }
+      }
     }
-    &-title{
-        font-size: 40px;
-        font-weight: 600;
-        line-height: 1;
-        letter-spacing: -1.6px;
-        color: var(--tp-common-white);
+  }
+
+  &-space-wrap {
+    padding-left: 50px;
+    @media #{$xs} {
+      padding-left: 0;
     }
-    &-text{
-        & p{
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 26px;
-            color: rgba(255, 255, 255, 0.60);
-            max-width: 435px;
-            margin-bottom: 40px;
-        }
-    }
-    &-list{
-        margin-bottom: 50px;
-        ul{
-            & li{
-                font-size: 16px;
-                font-weight: 500;
-                line-height: 1;
-                margin-bottom: 15px;
-                position: relative;
-                padding-left: 15px;
-                list-style-type: none;
-                color: rgba(255, 255, 255, 0.90);
-                &::after{
-                    content: '';
-                    position: absolute;
-                    top: 6px;
-                    left: 0;
-                    height: 4px;
-                    width: 4px;
-                    background-color: rgba(255, 255, 255, 0.90);
-                }
-            }
-        }
-    }
-    &-space-wrap{
-        padding-left: 50px;
-        @media #{$xs}{
-            padding-left: 0;
-        }
-    }
-    &-title-box{
-        margin-bottom: 32px;
-    }
-    &-thumb{
-        height: 100%;
-        & img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    }
+  }
+
+  &-title-box {
+    margin-bottom: 32px;
+  }
 }
+
 .sv-port{
     &-thumb{
         &.port-thumb{
             &-1{
                 & img{
-                    border-radius: 300px;
+                    border-radius: 40px;
                 }
             }
             &-2{
@@ -1170,4 +1200,6 @@
         }
     }
 }
+
+
 

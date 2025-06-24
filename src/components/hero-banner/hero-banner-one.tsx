@@ -15,7 +15,7 @@ const HeroBannerOne = () => {
   return (
     <div
       className="tp-hero-area tp-hero-ptb main-slider"
-      style={{ position: "relative", height: "70vh", overflow: "hidden" }}
+      style={{ position: "relative", height: "90vh", overflow: "hidden" }}
     >
       {/* ✅ Video Background */}
       <div

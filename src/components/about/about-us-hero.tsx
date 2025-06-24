@@ -15,9 +15,6 @@ export default function AboutUsHero() {
       className="ab-inner-hero-area ab-inner-hero-bg p-relative"
       style={{backgroundImage: "url(/assets/img/inner-about/hero/hero-1.jpg)"}}
     >
-      <div className="breadcurmb-site d-none">
-        <h6>About Us</h6>
-      </div>
       <div className="ab-inner-hero-scroll smooth">
         <a className="pointer" onClick={scrollTo}>
           <span>
@@ -26,7 +23,7 @@ export default function AboutUsHero() {
           </span>
         </a>
       </div>
-      <div className="container container-1480">
+      <div className="container container-1480" style={{ marginTop: "-10px" }}>
         <div className="row">
           <div className="col-xl-8">
             <div
@@ -34,9 +31,6 @@ export default function AboutUsHero() {
               data-lag="0.2"
               data-stagger="0.08"
             >
-              <span className="ab-inner-hero-subtitle">
-               FUNKAAR 
-              </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
               Shaping Stories. Creating Impact.
               </h1>

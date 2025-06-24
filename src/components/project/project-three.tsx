@@ -65,7 +65,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-01/hero/like-1.mp4" type="video/mp4" />
+                  <source src="/assets/img/inner-project/masonary/Nilofer Shahid.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

@@ -56,7 +56,7 @@ const project_data: IProject[] = [
   { id: 4, cls: "", cls_2: "height-4", img: p_4 },
   { id: 5, cls: "tp-project-ml", cls_2: "height-5", img: p_5 },
   { id: 6, cls: "", cls_2: "height-6", img: p_6 },
-  { id: 7, cls: "", cls_2: "height-7", img: p_7 },
+  { id: 7,  cls: "w-100", cls_2: "height-7 d-inline-flex justify-content-end", img: p_7 },
   // { id: 8, cls: "", cls_2: "height-8", img: p_8 },
   { id: 9, cls: "", cls_2: "height-9", img: p_9 },
 ];

@@ -11,7 +11,7 @@ const ServiceOne = () => {
               <h2 className="tp-section-title tp_fade_bottom mb-6 text-black text-4xl md:text-5xl font-bold">
                 CAPABILITIES
               </h2>
-              <p className="tp-section-subtitle tp_fade_bottom text-black text-[18px] md:text-[20px] leading-8 max-w-2xl mx-auto">
+              <p className="tp-section-subtitled tp_fade_bottom mt-4">
                 We create with purpose, strategize with intent, and execute with impact.
               </p>
             </div>

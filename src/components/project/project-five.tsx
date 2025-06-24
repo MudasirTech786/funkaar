@@ -182,7 +182,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
           {project_data.map((item) => (
             <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">
               <div className="tp-project-5-2-thumb fix mb-140 p-relative">
-                <Link href="/portfolio-details-1">
+                {/* <Link href=""> */}
                   <div className="tp_img_reveal">
                     {item.video ? (
                       <video
@@ -212,7 +212,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                     {/* <span className="tp-project-5-2-meta">{item.year}</span> */}
                     <h4 className="tp-project-5-2-title-sm">{item.title}</h4>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
             </div>
           ))}
