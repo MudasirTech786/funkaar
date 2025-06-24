@@ -46,7 +46,7 @@ const PortfolioMasonryMain = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tm-hero-content">
-                      <span className="tm-hero-subtitle">FUNKAAR</span>
+                      {/* <span className="tm-hero-subtitle">FUNKAAR</span> */}
                       <h3 className="tm-hero-title tp-char-animation">
                         Where Ideas Meet Execution.
                       </h3>
