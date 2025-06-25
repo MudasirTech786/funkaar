@@ -63,6 +63,16 @@ const service_data = [
       "Audience Understanding",
       "Business Insights",
       "Audience + Competitor Insights",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
     ],
   }
   
@@ -73,7 +83,7 @@ export default function ServiceSix() {
     <div className="sv-service-area project-panel-area-2 mb-200 md:mb-2">
       <div className="container container-1630">
         {service_data.map((item) => (
-          <div key={item.id} className="sv-service-item project-panel-2"  style={{ height: "1100px", marginBottom: "80px" }}>
+          <div key={item.id} className="sv-service-item project-panel-2"  style={{ marginBottom: "20px" }}>
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
