@@ -15,7 +15,7 @@ const VideOne = () => {
                   position: "relative",
                   width: "fit-content",
                   margin: "0 auto",
-                  marginTop: "-300px",
+                  marginTop: "-100px",
                 }}
                 className="sm:mt-[-240px] md:mt-[-270px]"
               >
@@ -33,7 +33,7 @@ const VideOne = () => {
                 />
 
                 {/* Centered Text */}
-                <div className="funkaar-container tp_fade_bottom">
+                <div className="funkaar-container tp_fade_bottom mt-4">
                   <p className="funkaar-text">
                     Funkaar is a full-service marketing agency crafting high-impact content that drives growth.
                     Our powerful narratives cut through the noise, turning your brand’s story into a compelling

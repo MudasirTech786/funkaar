@@ -103,7 +103,7 @@ const HomeMain = () => {
             {/* hero area end */}
 
             {/* video area */}
-            <VideOne /><br /><br /> 
+            <VideOne /><br /><br /> <br /><br /><br /><br />
             {/* video area */}
 
             {/* brand area */}
