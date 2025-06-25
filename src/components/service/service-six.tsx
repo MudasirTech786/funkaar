@@ -9,6 +9,7 @@ import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
+
 const service_data = [
   {
     id: 1,
@@ -63,16 +64,6 @@ const service_data = [
       "Audience Understanding",
       "Business Insights",
       "Audience + Competitor Insights",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
-      " ",
     ],
   }
   

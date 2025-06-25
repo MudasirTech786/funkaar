@@ -26,7 +26,7 @@ export default function LineImgSlider() {
                 key={index}
                 className={`sv-port-thumb port-thumb-${index % 2 === 0 ? 1 : 2}`}
                 style={{
-                  marginRight: '20px', width: '250px',      // 👈 Adjust width here
+                  marginRight: '20px', width: '200px',      // 👈 Adjust width here
                   height: 'auto'
                 }}
               >
@@ -35,7 +35,7 @@ export default function LineImgSlider() {
                   style={{
                     width: '100%',
                     height: '100%',
-                    objectFit: 'cover',
+                    objectFit: 'fill',
                     borderRadius: '8px' // optional
                   }}
                 />
