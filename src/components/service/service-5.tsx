@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceOne = () => {
   return (
-    <div className="tp-service-area pt-180 pb-80 tp-btn-trigger bg-white">
+    <div className="tp-service-area pt-40 pb-10 tp-btn-trigger bg-white">
       <div className="container">
         <div className="row justify-content-center">
           {/* Centered Column */}

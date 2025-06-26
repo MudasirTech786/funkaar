@@ -38,7 +38,7 @@ const service_data = [
 
 const ServiceOne = () => {
   return (
-    <div className="tp-service-area pt-180 pb-80 tp-btn-trigger">
+    <div className="tp-service-area tp-service-styling-area pt-400 pb-80 tp-btn-trigger">
       <div className="container container-1630">
         <div className="row">
           {/* Left Column */}

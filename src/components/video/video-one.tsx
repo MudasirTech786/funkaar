@@ -34,6 +34,7 @@ const VideOne = () => {
 
                 {/* Centered Text */}
                 <div className="funkaar-container tp_fade_bottom mt-4">
+                  <h4 className='funkaar-heading'>BUILD TO AMPLIFY WHAT YOU STAND FOR</h4>
                   <p className="funkaar-text">
                     Funkaar is a full-service marketing agency crafting high-impact content that drives growth.
                     Our powerful narratives cut through the noise, turning your brand’s story into a compelling
@@ -62,7 +63,7 @@ const VideOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> <br />
 
           </div>
         </div>
