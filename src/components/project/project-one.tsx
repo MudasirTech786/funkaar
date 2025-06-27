@@ -115,7 +115,7 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
-                <source src="/assets/img/inner-about/about/Rohma.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751025978/Rohma_zr4e7c.mp4" type="video/mp4" />
               </video>
             </div>
           </div>

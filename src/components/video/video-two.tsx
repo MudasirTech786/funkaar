@@ -18,7 +18,7 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="/assets/img/home-01/hero/contact.mp4"
+                  src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751026502/contact_vk4vai.mp4"
                   type="video/mp4"
                 />
               </video>

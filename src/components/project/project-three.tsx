@@ -20,7 +20,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-04/portfolio/port-11.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021690/port-11_ldpgcu.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-04/portfolio/port-2.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021762/port-2_eonlto.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/home-04/portfolio/port-12.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751022284/port-12_ir32o6.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block", objectFit: "cover" }}
                 >
-                  <source src="/assets/img/inner-project/masonary/Nilofer Shahid.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751022472/Nilofer_Shahid_o3b2m5.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

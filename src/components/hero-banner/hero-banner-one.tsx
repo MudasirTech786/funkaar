@@ -40,8 +40,10 @@ const HeroBannerOne = () => {
             objectFit: "cover"
           }}
         >
-          <source src="/assets/img/home-01/hero/liko.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+          <source
+            src="https://res.cloudinary.com/dbp8ze1ux/video/upload/nm1xs5kkydthepoy9uql.mp4"
+            type="video/mp4"
+          />          Your browser does not support the video tag.
         </video>
 
         {/* Optional overlay */}

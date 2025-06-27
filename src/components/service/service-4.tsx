@@ -72,7 +72,7 @@ const ServiceOne = () => {
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
-                <source src="/assets/img/inner-project/masonary/Select & Airlink.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021332/Select_Airlink_lzrk4n.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -84,19 +84,3 @@ const ServiceOne = () => {
 };
 
 export default ServiceOne;
-
-{/* <div className="tp-service-right-wrap">
-              {service_data.map((s) => (
-                <div
-                  key={s.id}
-                  className="tp-service-item d-flex align-items-start mb-75 tp_fade_bottom"
-                >
-                  <div className="tp-service-content">
-                    <h4 className="tp-service-title-sm mb-2">
-                      <b className="tp-service-title-sm mb-3">{s.title}</b>
-                    </h4>
-                    <p>{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div> */}
