@@ -71,10 +71,10 @@ const service_data = [
 
 export default function ServiceSix() {
   return (
-    <div className="sv-service-area project-panel-area-2 mb-200 md:mb-2">
+    <div className="sv-service-area mb-20 md:mb-2">
       <div className="container container-1630">
         {service_data.map((item) => (
-          <div key={item.id} className="sv-service-item project-panel-2"  style={{ marginBottom: "20px" }}>
+          <div key={item.id} className="sv-service-item"  style={{ marginBottom: "25px" }}>
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
