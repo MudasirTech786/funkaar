@@ -5,7 +5,7 @@ import BrandSlider from "@/components/brand/brand-slider";
 
 const VideOne = () => {
   return (
-    <div className="tp-hero-bottom-img-wrap tp-hero-ptb main-slider relative z-10">
+    <div className="tp-hero-bottom-img-wrap tp-hero-ptb main-slider relative z-10 bg-white">
       <div className="container-fluid px-4 sm:px-6 md:px-10">
         <div className="row justify-center">
           <div className="col-xxl-12">
@@ -15,9 +15,8 @@ const VideOne = () => {
                   position: "relative",
                   width: "fit-content",
                   margin: "0 auto",
-                  marginTop: "-100px",
+                  marginTop: "-150px",
                 }}
-                className="sm:mt-[-240px] md:mt-[-270px]"
               >
                 {/* Circle Image */}
                 <Image
@@ -34,8 +33,8 @@ const VideOne = () => {
 
                 {/* Centered Text */}
                 <div className="funkaar-container tp_fade_bottom mt-4">
-                  <h4 className='funkaar-heading'>BUILD TO AMPLIFY WHAT YOU STAND FOR</h4>
-                  <p className="funkaar-text">
+                  <h4 className='funkaar-heading universal text-black'>BUILT TO AMPLIFY WHAT <br /> YOU STAND FOR</h4>
+                  <p className="funkaar-text text-black">
                     Funkaar is a full-service marketing agency crafting high-impact content that drives growth.
                     Our powerful narratives cut through the noise, turning your brand’s story into a compelling
                     message that engages and delivers results.
@@ -46,11 +45,11 @@ const VideOne = () => {
             </div>
 
             {/* Brand Section – No change for laptop */}
-            <div className="row mt-4">
+            <div className="row mt-4 bg-black">
               <div className="tp-brand-brd-top tp-brand-ptb">
-                <div className="row align-items-center">
+                <div style={{ marginBottom: "70px" }} className="row align-items-center">
                   <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-12 text-center text-lg-start mb-4 mb-lg-0">
-                    <div className="tp-brand-title-box">
+                    <div className="tp-brand-title-box text-center">
                       <h4 className="tp-brand-title tp_fade_bottom text-[20px] sm:text-[18px] md:text-[20px]">
                         Clients We’ve Worked With
                       </h4>

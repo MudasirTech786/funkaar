@@ -3,17 +3,20 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 // images
-import port_1 from "@/assets/img/inner-service/portfolio/port-2.jpg";
 import port_2 from "@/assets/img/inner-service/portfolio/port-1.png";
-import port_3 from "@/assets/img/inner-service/portfolio/port-4.png";
-import port_4 from "@/assets/img/inner-service/portfolio/port-3.png";
+import port_1 from "@/assets/img/inner-service/portfolio/port-2.jpg";
+import port_3 from "@/assets/img/inner-service/portfolio/port-4.jpg";
+import port_4 from "@/assets/img/inner-service/portfolio/port-3.jpg";
 import port_5 from "@/assets/img/inner-service/portfolio/port-5.jpg";
 import port_6 from "@/assets/img/inner-service/portfolio/port-6.jpg";
-import port_7 from "@/assets/img/inner-service/portfolio/port-7.jpg";
-import port_8 from "@/assets/img/inner-service/portfolio/port-9.jpg";
+import port_7 from "@/assets/img/inner-service/portfolio/port-11.png";
+import port_8 from "@/assets/img/inner-service/portfolio/port-8.png";
+import port_9 from "@/assets/img/inner-service/portfolio/port-9.jpg";
+import port_10 from "@/assets/img/inner-service/portfolio/port-10.png";
+import port_11 from "@/assets/img/inner-service/portfolio/port-11.jpg";
 
 // images
-const port_images = [port_1, port_2, port_3, port_4, port_5, port_6, port_7, port_8, port_4, port_5];
+const port_images = [port_1, port_2, port_3, port_4, port_5, port_6, port_7, port_8, port_9, port_10];
 
 export default function LineImgSlider() {
   return (

@@ -15,7 +15,7 @@ const HeroBannerOne = () => {
   return (
     <div
       className="tp-hero-area tp-hero-ptb main-slider"
-      style={{ position: "relative", height: "90vh", overflow: "hidden" }}
+      style={{ position: "relative", height: "100vh", overflow: "hidden" }}
     >
       {/* ✅ Video Background */}
       <div
@@ -24,7 +24,7 @@ const HeroBannerOne = () => {
           top: 0,
           left: 0,
           width: "100%",
-          height: "100%",
+          height: "80%",
           zIndex: 0,
           overflow: "hidden"
         }}
@@ -69,11 +69,11 @@ const HeroBannerOne = () => {
           height: "100%",
         }}
       >
-        <h1 className="tp-hero-title tp_fade_bottom text-white mb-3">
-          <span>
-            Crafting Stories, <br /> Fueling Growth
-          </span>
-        </h1>
+        <h1 className="tp-hero-title tp_fade_bottom text-white mb-3 universal">
+  <span>
+    Crafting Stories, <br /> Fueling Growth
+  </span>
+</h1>
 
         {/* Uncomment if needed */}
         {/* <p className="text-white tp_fade_bottom max-w-3xl">

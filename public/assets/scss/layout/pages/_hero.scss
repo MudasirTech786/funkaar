@@ -173,6 +173,7 @@
   &-bottom {
     &-img {
       background-position: top center;
+      background-color: white;
       background-size: cover;
       object-fit: cover;
       width: 670px;
@@ -908,14 +909,17 @@
 
 .funkaar-heading {
   color: white;
-  font-weight: 500;
+  font-weight: 800;
   text-align: center;
   line-height: 1.6;
-  font-size: 30px;;
+  font-size: 40px;;
+  margin-bottom: 30px;
 
   @media (max-width: 768px) {
     margin-top: 265px;
-    font-size: 18px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
   }
 }
 
