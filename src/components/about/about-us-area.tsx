@@ -128,7 +128,7 @@ export default function AboutUsArea() {
         <div id="about-info" className="row">
           <div className="col-xxl-9">
             <div className="ab-about-content p-relative">
-              <p className="tp-dropcap tp_fade_bottom">
+              <p className="tp-dropcap tp_fade_bottom mt-4">
                 From high-impact campaigns to transformative media projects, we help brands, nonprofits, and organizations stand out, speak louder, and connect deeper.
               </p>
             </div>
