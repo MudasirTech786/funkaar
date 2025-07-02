@@ -19,7 +19,7 @@ const VideOne = () => {
                 }}
               >
                 {/* Circle Image */}
-                <Image
+                {/* <Image
                   src="/assets/img/home-01/hero/hero-bg-shape-1-1.svg"
                   alt="shape"
                   width={500}
@@ -29,44 +29,47 @@ const VideOne = () => {
                     display: "block",
                   }}
                   className="w-[500px] md:w-[400px] sm:w-[300px]"
-                />
+                /> */}
 
                 {/* Centered Text */}
-                <div className="funkaar-container tp_fade_bottom mt-4">
-                  <h4 className='funkaar-heading universal text-black'>BUILT TO AMPLIFY WHAT <br /> YOU STAND FOR</h4>
-                  <p className="funkaar-text text-black">
-                    Funkaar is a full-service marketing agency crafting high-impact content that drives growth.
-                    Our powerful narratives cut through the noise, turning your brand’s story into a compelling
+                <div className="funkaar-container tp_fade_bottom">
+                  <h1 className="funkaar-heading">
+                    BUILT TO AMPLIFY WHAT<br /> YOU STAND FOR
+                  </h1>
+                  <p className="funkaar-text">
+                    Funkaar is a full-service marketing agency crafting high-impact content that drives growth.<br />
+                    Our powerful narratives cut through the noise, turning your brand’s story into a compelling<br />
                     message that engages and delivers results.
                   </p>
                 </div>
+
 
               </div>
             </div>
 
             {/* Brand Section – No change for laptop */}
-            <div className="row mt-4 bg-black">
-              <div className="tp-brand-brd-top tp-brand-ptb">
-                <div style={{ marginBottom: "70px" }} className="row align-items-center">
-                  <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-12 text-center text-lg-start mb-4 mb-lg-0">
-                    <div className="tp-brand-title-box text-center">
-                      <h4 className="tp-brand-title tp_fade_bottom text-[20px] sm:text-[18px] md:text-[20px]">
-                        Clients We’ve Worked With
-                      </h4>
-                    </div>
-                  </div>
-                  <div className="col-xxl-10 col-xl-9 col-lg-9 col-md-12">
-                    <div className="tp-brand-slider-wrapper">
-                      <BrandSlider />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> <br />
 
           </div>
         </div>
       </div>
+      <div className="row mt-4 bg-black">
+        <div className="tp-brand-brd-top tp-brand-ptb">
+          <div style={{ marginBottom: "70px" }} className="row align-items-center">
+            <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-12 text-center text-lg-start mb-4 mb-lg-0">
+              <div className="tp-brand-title-box text-center">
+                <h4 className="tp-brand-title tp_fade_bottom clients">
+                  Clients We’ve Worked With
+                </h4>
+              </div>
+            </div>
+            <div className="col-xxl-10 col-xl-9 col-lg-9 col-md-12">
+              <div className="tp-brand-slider-wrapper">
+                <BrandSlider />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <br />
     </div>
   );
 };

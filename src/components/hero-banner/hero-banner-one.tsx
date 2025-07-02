@@ -69,7 +69,7 @@ const HeroBannerOne = () => {
           height: "100%",
         }}
       >
-        <h1 className="tp-hero-title tp_fade_bottom text-white mb-3 universal">
+        <h1 className="tp-hero-title tp_fade_bottom text-white mb-3">
   <span>
     Crafting Stories, <br /> Fueling Growth
   </span>

@@ -38,16 +38,16 @@ const service_data = [
 
 const ServiceOne = () => {
   return (
-    <div className="tp-service-area tp-service-styling-area pt-400 pb-80 tp-btn-trigger">
+    <div className="tp-service-area tp-service-styling-area pt-400 pb-80 tp-btn-trigger mt-4">
       <div className="container container-1630">
         <div className="row">
           {/* Left Column */}
           <div className="col-xl-6 col-lg-6">
             <div className="tp-service-title-box p-relative">
-              <h4 className="tp-section-title tp_fade_bottom mb-40 text-black universal">
+              <h4 className="tp-section-title tp_fade_bottom mb-40 text-black">
                 Exclusive Creative Agency
                 <br />
-                <span className="text-black universal">for Brands That Demand Impact</span>
+                <span className="text-black">for Brands That Demand Impact</span>
               </h4> <br /><br />
 
               <p className="tp-section-subtitle tp_fade_bottom text-black" style={{ fontSize: "18px", lineHeight: "1.8" }}>

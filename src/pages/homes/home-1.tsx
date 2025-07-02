@@ -20,7 +20,7 @@ import ServiceThree from "@/components/service/service-3";
 import ServiceFour from "@/components/service/service-4";
 import ServiceSix from "@/components/service/service-5";
 import ServiceFive from "@/components/service/service-one";
-import ProjectOne from "@/components/project/project-one";
+import ProjectOne from "@/components/project/project-text-line";
 import AwardOne from "@/components/award/award-one";
 import TeamOne from "@/components/team/team-one";
 import TestimonialOne from "@/components/testimonial/testimonial-one";
@@ -103,7 +103,7 @@ const HomeMain = () => {
             {/* hero area end */}
 
             {/* video area */}
-            <VideOne /><br /><br />
+            <VideOne />
             {/* video area */}
 
             {/* brand area */}
@@ -119,7 +119,7 @@ const HomeMain = () => {
             {/* service area */}
             
             {/* service area */}
-            {/* <ServiceFive /> */}
+            <ProjectOne />
             {/* service area */}
 
             <PortfolioShowcaseMain /><br />

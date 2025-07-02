@@ -42,19 +42,36 @@ const ServiceOne = () => {
       <div className="container container-1630">
         <div className="row align-items-center">
           {/* Left Column */}
-          <div className="col-xl-6 col-lg-6">
-            <div className="tp-service-title-box p-relative">
-              <h4 className="tp-section-title tp_fade_bottom mb-40 text-black universal">
-                CREATIVE & CONTENT LAB
-                {/* <br />
-                <span className="text-black">for Brands That Demand Impact</span> */}
-              </h4> <br /><br />
+          <div className="col-xl-6 col-lg-6 mx-auto text-center">
+            {/* Icon */}
+            <div className="d-flex justify-content-center align-items-center mb-3">
+              <img
+                src="/assets/img/home-01/service/service-icon-1.png"
+                alt="Creative Icon"
+                width={100}
+                height={100}
+                style={{ objectFit: "contain" }}
+              />
+            </div>
 
-              <p className="tp-section-subtitle tp_fade_bottom text-black" style={{ fontSize: "18px", lineHeight: "1.8" }}>
+            {/* Title & Description */}
+            <div
+              className="tp-service-title-box p-relative mx-auto"
+              style={{ maxWidth: "700px" }}
+            >
+              <h4 className="tp-section-title tp_fade_bottom mb-4 text-black">
+                CREATIVE & CONTENT LAB
+              </h4>
+
+              <p
+                className="tp-section-subtitle tp_fade_bottom text-black"
+                style={{ fontSize: "18px", lineHeight: "1.8" }}
+              >
                 We craft compelling visuals, stories, and branding that captivate and convert.
               </p>
             </div>
           </div>
+
 
           {/* Right Column */}
           <div className="col-xl-6 col-lg-6">

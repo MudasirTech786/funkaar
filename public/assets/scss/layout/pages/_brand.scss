@@ -132,3 +132,17 @@
     }
 }
 
+.clients{
+    font-weight: 700;
+        font-size: 17px;
+        line-height: 1; 
+        text-transform: uppercase;
+        color: var(--tp-common-black);
+        margin-bottom: 0;
+        @media #{$xxl}{
+            font-size: 14px;
+        }
+        @media #{$md,$xs}{
+            margin-bottom: 40px;
+        }
+}

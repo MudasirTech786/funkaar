@@ -8,7 +8,7 @@ const ServiceOne = () => {
           {/* Centered Column */}
           <div className="col-xl-8 col-lg-10">
             <div className="tp-service-title-box text-center">
-              <h2 className="tp-section-title tp_fade_bottom mb-6 text-black text-4xl md:text-5xl font-bold universal">
+              <h2 className="tp-section-title tp_fade_bottom mb-6 text-black text-4xl md:text-5xl font-bold">
                 CAPABILITIES
               </h2>
               <p className="tp-section-subtitled tp_fade_bottom mt-4">
