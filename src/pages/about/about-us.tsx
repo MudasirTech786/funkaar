@@ -13,7 +13,6 @@ import FooterTwo from "@/layouts/footers/footer-two";
 import AboutUsHero from "@/components/about/about-us-hero";
 import AboutUsArea from "@/components/about/about-us-area";
 import Testimonial from "@/components/studio-panels/studio-panel-4";
-import FunFactOne from "@/components/fun-fact/fun-fact-one";
 import BrandFive from "@/components/brand/brand-five";
 import AwardOne from "@/components/award/award-one";
 // animation
