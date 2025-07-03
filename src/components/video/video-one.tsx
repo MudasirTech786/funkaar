@@ -33,7 +33,7 @@ const VideOne = () => {
 
                 {/* Centered Text */}
                 <div className="funkaar-container tp_fade_bottom">
-                  <h1 className="funkaar-heading">
+                  <h1 className="funkaar-heading text-center">
                     BUILT TO AMPLIFY WHAT<br /> YOU STAND FOR
                   </h1>
 
