@@ -42,9 +42,9 @@ const ServiceOne = () => {
       <div className="container container-1630">
         <div className="row">
           {/* Left Column */}
-          <div className="col-xl-6 col-lg-6">
-            <div className="tp-service-title-box p-relative">
-              <h4 className="tp-section-title tp_fade_bottom mb-40 text-black">
+          <div className="col-xl-6 col-lg-6 mt-4">
+            <div className="tp-service-title-box p-relative mt-4">
+              <h4 className="tp-section-title tp_fade_bottom mb-40 text-black mt-4">
                 Exclusive Creative Agency
                 <br />
                 <span className="text-black">for Brands That Demand Impact</span>

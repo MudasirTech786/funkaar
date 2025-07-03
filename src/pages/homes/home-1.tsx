@@ -21,7 +21,6 @@ import ServiceFour from "@/components/service/service-4";
 import ServiceSix from "@/components/service/service-5";
 import ServiceFive from "@/components/service/service-one";
 import ProjectOne from "@/components/project/project-text-line";
-import AwardOne from "@/components/award/award-one";
 import TeamOne from "@/components/team/team-one";
 import TestimonialOne from "@/components/testimonial/testimonial-one";
 import Testimonial from "@/components/studio-panels/studio-panel-44";
