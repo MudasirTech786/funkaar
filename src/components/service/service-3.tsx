@@ -45,13 +45,13 @@ const ServiceOne = () => {
           <div className="col-xl-6 col-lg-6 mx-auto text-center">
             {/* Icon */}
             <div className="d-flex justify-content-center align-items-center mb-3">
-              <img
+              {/* <img
                 src="/assets/img/home-01/service/service-icon-2.png"
                 alt="Creative Icon"
                 width={100}
                 height={100}
                 style={{ objectFit: "contain" }}
-              />
+              /> */}
             </div>
 
             {/* Heading + Description */}
