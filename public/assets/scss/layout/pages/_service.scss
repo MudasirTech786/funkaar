@@ -750,33 +750,40 @@
     }
 
     &-thumb-box {
-        height: 700px;
-        overflow: hidden;
+  height: 700px;
+  overflow: hidden;
 
-        @media #{$xl} {
-            height: 550px;
-        }
+  @media #{$xl} {
+    height: 550px;
+  }
 
-        @media #{$lg} {
-            height: 400px;
-        }
+  @media #{$lg} {
+    height: 400px;
+  }
 
-        @media #{$md} {
-            height: 200px;
-        }
+  @media #{$md} {
+    height: 200px;
+  }
 
-        @media #{$xs} {
-            height: 400px;
-        }
+  @media #{$xs} {
+    height: auto; // ✅ Show full image height on mobile
+    // overflow: visible; // ✅ Allow full image to show
+  }
 
-        & img {
-            margin-top: -250px;
+  & img {
+    margin-top: -250px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 
-            @media #{$xs} {
-                height: 400px;
-            }
-        }
+    @media #{$xs} {
+      margin-top: 0; // ✅ Remove negative margin on mobile
+      height: auto;  // ✅ Show natural height
+    //   object-fit: contain; // Optional: keep full image in view
     }
+  }
+}
+
 }
 
 .sv-service {
