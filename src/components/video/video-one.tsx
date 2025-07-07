@@ -38,9 +38,11 @@ const VideOne = () => {
                   </h1>
 
                   <p className="funkaar-text">
+
                     Funkaar is a full-service marketing agency crafting high-impact content that drives growth.<br />
                     Our powerful narratives cut through the noise, turning your brand’s story into a compelling<br />
                     message that engages and delivers results.
+                    
                   </p>
                 </div>
 
