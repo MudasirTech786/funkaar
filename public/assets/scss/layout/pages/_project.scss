@@ -3862,3 +3862,13 @@
         }
     }
 }
+
+.funkaarRotator {
+
+  @media #{$xs} {
+    width: 40px; // or smaller size for mobile
+    transform: translateY(0); // optionally reset Y shift
+    margin-top: 10px; // adjust spacing if needed
+    margin-right: 80px;
+  }
+}

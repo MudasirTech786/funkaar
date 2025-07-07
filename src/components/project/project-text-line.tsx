@@ -28,13 +28,13 @@ const ProjectTextLine = () => {
 
   return (
     <div
-      className="tp-project-textline tp-project-effect mb-115"
+      className="tp-project-textline tp-project-effect mb-40"
       data-scrub="0.0001"
     >
       <span className="textline-1">
         Our
         <span>
-          <Image src={shape} alt="shape" />
+          <Image className="funkaarRotator" src={shape} alt="shape" />
         </span>
         Work
       </span>
@@ -42,7 +42,7 @@ const ProjectTextLine = () => {
       <span className="textline-1">
         Our
         <span>
-          <Image src={shape} alt="shape" />
+          <Image className="funkaarRotator" src={shape} alt="shape" />
         </span>
         Work
       </span>
@@ -50,7 +50,7 @@ const ProjectTextLine = () => {
       <span className="textline-1">
         Our
         <span>
-          <Image src={shape} alt="shape" />
+          <Image className="funkaarRotator" src={shape} alt="shape" />
         </span>
         Work
       </span>

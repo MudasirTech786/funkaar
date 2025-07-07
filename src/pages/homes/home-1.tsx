@@ -114,7 +114,7 @@ const HomeMain = () => {
             <ServiceSix />
             <ServiceTwo />
             <ServiceThree />
-            <ServiceFour /><br />
+            <ServiceFour /><br /><br />
             {/* service area */}
             
             {/* service area */}

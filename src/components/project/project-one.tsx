@@ -112,7 +112,6 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
                   height: '100%',
                   objectFit: 'cover',
                   display: 'block',
-                  borderRadius: '8px' // optional for soft corners
                 }}
               >
                 <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751025978/Rohma_zr4e7c.mp4" type="video/mp4" />
