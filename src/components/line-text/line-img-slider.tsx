@@ -17,7 +17,6 @@ import port_11 from "@/assets/img/inner-service/portfolio/port-11.png";
 import port_12 from "@/assets/img/inner-service/portfolio/port-12.png";
 import port_13 from "@/assets/img/inner-service/portfolio/port-13.jpg";
 import port_14 from "@/assets/img/inner-service/portfolio/port-14.jpg";
-import port_15 from "@/assets/img/inner-service/portfolio/port-15.jpg";
 import port_16 from "@/assets/img/inner-service/portfolio/port-16.jpg";
 import port_17 from "@/assets/img/inner-service/portfolio/port-17.png";
 import port_18 from "@/assets/img/inner-service/portfolio/port-18.jpg";
@@ -26,7 +25,7 @@ import port_20 from "@/assets/img/inner-service/portfolio/port-20.jpg";
 
 // images
 const port_images = [port_1, port_2, port_3, port_4, port_5, port_6, port_7, port_8, port_9, port_10,
-  port_11, port_12, port_13, port_14, port_15, port_16, port_17, port_18, port_19, port_20
+  port_11, port_12, port_13, port_14, port_16, port_17, port_18, port_19, port_20
 ];
 
 export default function LineImgSlider() {
