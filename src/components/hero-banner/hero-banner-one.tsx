@@ -2,6 +2,8 @@
 import React from "react";
 import { useGSAP } from "@gsap/react";
 import { fadeAnimation } from "@/utils/title-animation";
+import AutoLazy from "@/components/LazyVideo";
+
 
 const HeroBannerOne = () => {
   useGSAP(() => {
@@ -29,22 +31,14 @@ const HeroBannerOne = () => {
           overflow: "hidden"
         }}
       >
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <AutoLazy
+          src="https://res.cloudinary.com/dbp8ze1ux/video/upload/q_auto,f_auto,w_1280/nm1xs5kkydthepoy9uql.mp4"
           style={{
             width: "100%",
             height: "100%",
             objectFit: "cover"
           }}
-        >
-          <source
-            src="https://res.cloudinary.com/dbp8ze1ux/video/upload/nm1xs5kkydthepoy9uql.mp4"
-            type="video/mp4"
-          />          Your browser does not support the video tag.
-        </video>
+        />
 
         {/* Optional overlay */}
         <div

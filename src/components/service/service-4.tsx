@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import ClickToPlayVideo from "@/components/ClickToPlayVideo";
 // service images
 import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
 import s_2 from "@/assets/img/home-01/service/service-icon-2.png";
@@ -76,21 +76,18 @@ const ServiceOne = () => {
           {/* Right Column */}
           <div className="col-xl-6 col-lg-6">
             <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
-              <video
-                loop
-                muted
-                autoPlay
-                playsInline
+              <ClickToPlayVideo
+                src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021332/Select_Airlink_lzrk4n.mp4"
+                poster="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021332/Select_Airlink_lzrk4n.jpg" // optional preview image
                 style={{
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
                   display: 'block',
-                  borderRadius: '8px' // optional for soft corners
+                  borderRadius: '8px'
                 }}
-              >
-                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021332/Select_Airlink_lzrk4n.mp4" type="video/mp4" />
-              </video>
+              />
+
             </div>
           </div>
 

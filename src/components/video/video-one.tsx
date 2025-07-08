@@ -18,18 +18,6 @@ const VideOne = () => {
                   marginTop: "-150px",
                 }}
               >
-                {/* Circle Image */}
-                {/* <Image
-                  src="/assets/img/home-01/hero/hero-bg-shape-1-1.svg"
-                  alt="shape"
-                  width={500}
-                  height={400}
-                  style={{
-                    height: "auto",
-                    display: "block",
-                  }}
-                  className="w-[500px] md:w-[400px] sm:w-[300px]"
-                /> */}
 
                 {/* Centered Text */}
                 <div className="funkaar-container tp_fade_bottom">

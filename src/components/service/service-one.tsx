@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import ClickToPlayVideo from "@/components/ClickToPlayVideo";
 
 // service images
 import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
@@ -60,21 +61,18 @@ const ServiceOne = () => {
           {/* Right Column */}
           <div className="col-xl-6 col-lg-6">
             <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
-              <video
-                loop
-                muted
-                autoPlay
-                playsInline
+              <ClickToPlayVideo
+                src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751020953/port-3_cygauz.mp4"
+                poster="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751020953/port-3_cygauz.jpg" // use an actual image or thumbnail URL
                 style={{
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
                   display: 'block',
-                  borderRadius: '8px' // optional for soft corners
+                  borderRadius: '8px'
                 }}
-              >
-                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751020953/port-3_cygauz.mp4" type="video/mp4" />
-              </video>
+              />
+
             </div>
           </div>
 
@@ -85,19 +83,3 @@ const ServiceOne = () => {
 };
 
 export default ServiceOne;
-
-{/* <div className="tp-service-right-wrap">
-              {service_data.map((s) => (
-                <div
-                  key={s.id}
-                  className="tp-service-item d-flex align-items-start mb-75 tp_fade_bottom"
-                >
-                  <div className="tp-service-content">
-                    <h4 className="tp-service-title-sm mb-2">
-                      <b className="tp-service-title-sm mb-3">{s.title}</b>
-                    </h4>
-                    <p>{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div> */}
