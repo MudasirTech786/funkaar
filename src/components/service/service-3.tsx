@@ -77,17 +77,21 @@ const ServiceOne = () => {
           {/* Right Column */}
           <div className="col-xl-6 col-lg-6">
             <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
-              <ClickToPlayVideo
-                src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751453218/Video.Guru_20250702_154211869_czrouy.mp4"
-                poster="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751453218/Video.Guru_20250702_154211869_czrouy.jpg" // use your actual thumbnail here
+              <video
+                loop
+                muted
+                autoPlay
+                playsInline
                 style={{
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
                   display: 'block',
-                  borderRadius: '8px'
+                  borderRadius: '8px' // optional for soft corners
                 }}
-              />
+              >
+                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751453218/Video.Guru_20250702_154211869_czrouy.mp4" type="video/mp4" />
+              </video>
 
             </div>
           </div>
