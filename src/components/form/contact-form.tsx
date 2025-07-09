@@ -116,7 +116,7 @@ export default function ContactForm({ btnCls = '' }: IProps) {
       </div>
 
       {/* Website */}
-      <div className="cn-contactform-input mb-25">
+      <div className="cn-contactform-input mb-25" >
         <label className='text-white mb-2'>Website</label>
         <input
           {...register('website')}
