@@ -120,7 +120,7 @@ export default function ContactForm({ btnCls = '' }: IProps) {
         <label className='text-white mb-2'>Website</label>
         <input
           {...register('website')}
-          type="url"
+          type="text"
           placeholder="https://yourwebsite.com"
           className="w-full px-4 py-3 text-white border border-white rounded-md bg-[#121212]"
         />
