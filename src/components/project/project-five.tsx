@@ -14,8 +14,8 @@ const project_data = [
     id: 1,
     title: "Bhegum Innayat Welfare Society",
     category: "Branding",
-    video: "https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751022418/Bhegum_Innayat_Welfare_Society_p0vjxm.mp4",
-    poster: "https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751022418/Bhegum_Innayat_Welfare_Society_p0vjxm.jpg",
+    video: "https://res.cloudinary.com/dbp8ze1ux/video/upload/v1752050838/Bhegum_Innayat_Welfare_Society_exe1qg.mp4",
+    poster: "https://res.cloudinary.com/dbp8ze1ux/video/upload/v1752050838/Bhegum_Innayat_Welfare_Society_exe1qg.jpg",
     year: 2024,
   },
   {

@@ -84,8 +84,6 @@ const ServiceOne = () => {
                 style={{
                   width: '100%',
                   height: '100%',
-                  objectFit: 'cover',
-                  display: 'block',
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
