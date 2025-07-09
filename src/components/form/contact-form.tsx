@@ -25,7 +25,7 @@ const schema = yup.object().shape({
   email: yup.string().email('Invalid email').required('Email is required'),
   phone: yup.string().required('Phone number is required'),
   organization: yup.string().required('Organization is required'),
-  website: yup.string().url('Invalid URL').optional(),
+  website: yup.string().optional(),
   message: yup.string().required('Message is required'),
   projectType: yup.string().optional(),
   referralSource: yup.string().required('This field is required'),
