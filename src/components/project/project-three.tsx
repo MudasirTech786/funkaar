@@ -21,7 +21,7 @@ export default function ProjectThree() {
                   playsInline
                   style={{ width: "100%", height: "auto", display: "block" }}
                 >
-                  <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751021690/port-11_ldpgcu.mp4" type="video/mp4" />
+                  <source src="/assets/img/home-01/hero/port-11_ldpgcu.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

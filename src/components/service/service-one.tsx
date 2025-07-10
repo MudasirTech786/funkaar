@@ -69,11 +69,12 @@ const ServiceOne = () => {
                 style={{
                   width: '100%',
                   height: '100%',
-                  borderRadius: '8px' // optional for soft corners
+                  borderRadius: '8px'
                 }}
               >
-                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1751020953/port-3_cygauz.mp4" type="video/mp4" />
+                <source src="/assets/img/home-01/hero/port-3_cygauz.mp4" type="video/mp4" />
               </video>
+
             </div>
           </div>
 
