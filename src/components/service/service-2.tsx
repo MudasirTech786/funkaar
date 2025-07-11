@@ -88,7 +88,7 @@ const ServiceOne = () => {
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
-                <source src="/assets/img/home-01/hero/port-7_ifmuf2.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1752230135/port-7_ifmuf2_yeh7mn.mp4" type="video/mp4" />
               </video>
 
             </div>
