@@ -121,7 +121,7 @@ const HomeMain = () => {
             <ProjectOne />
             {/* service area */}
 
-            <PortfolioShowcaseMain /><br />
+            <PortfolioShowcaseMain />
             
             {/* testimonial area */}
             <Testimonial /><br /><br />

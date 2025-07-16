@@ -60,7 +60,7 @@ export default function StudioPanelFour({ style_2 = false }: IProps) {
           <h4 className="tp-studio-testimonial-title">What Our Clients Say</h4>
         </div>
         <div className="container container-1330">
-          <div className="tp-studio-testimonial-wrap pt-120">
+          <div className="tp-studio-testimonial-wrap custom-pt">
             <h4 className="tm-hero-title custom-subheading" style={{ textAlign: "center" }}>
               Testimonials
             </h4><br />
