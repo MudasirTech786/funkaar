@@ -75,24 +75,21 @@ const ServiceOne = () => {
 
 
           {/* Right Column */}
-          <div className="col-xl-6 col-lg-6">
-            <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
-              <video
-                loop
-                muted
-                autoPlay
-                playsInline
-                preload="none"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  borderRadius: '8px' // optional for soft corners
-                }}
-              >
-                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/f_auto,q_auto/v1752230135/port-7_ifmuf2_yeh7mn.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
+          <video
+            loop
+            muted
+            autoPlay
+            playsInline
+            preload="auto"
+            style={{
+              width: '100%',
+              height: '100%',
+              borderRadius: '8px'
+            }}
+          >
+            <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1752230135/port-7_ifmuf2_yeh7mn.mp4" type="video/mp4" />
+          </video>
+
 
         </div>
       </div>
