@@ -213,6 +213,7 @@ export default function ProjectFive({ style_2 = false }: IProps) {
                         loop
                         muted
                         playsInline
+                        preload="none"
                         style={{
                           width: "100%",
                           height: "auto",

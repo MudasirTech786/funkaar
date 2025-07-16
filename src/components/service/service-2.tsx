@@ -82,15 +82,15 @@ const ServiceOne = () => {
                 muted
                 autoPlay
                 playsInline
+                preload="none"
                 style={{
                   width: '100%',
                   height: '100%',
                   borderRadius: '8px' // optional for soft corners
                 }}
               >
-                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/v1752230135/port-7_ifmuf2_yeh7mn.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/dbp8ze1ux/video/upload/f_auto,q_auto/v1752230135/port-7_ifmuf2_yeh7mn.mp4" type="video/mp4" />
               </video>
-
             </div>
           </div>
 
