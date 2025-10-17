@@ -32,7 +32,7 @@ const HeroBannerOne = () => {
         }}
       >
         <AutoLazy
-          src="/assets/img/home-01/hero/hero.mp4"
+          src="https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/videos/Website banner.mp4"
           style={{
             width: "100%",
             height: "100%",

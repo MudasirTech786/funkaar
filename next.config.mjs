@@ -7,6 +7,15 @@ const nextConfig = {
     EMAIL_PASS: process.env.EMAIL_PASS,
     TO_EMAIL: process.env.TO_EMAIL,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        pathname: "/**",
+      },
+    ],
+  },
 };
 
-export default nextConfig; // ✅ valid for `.mjs`
+export default nextConfig;
