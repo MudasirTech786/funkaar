@@ -36,7 +36,7 @@ const project_data = [
     id: 4,
     title: "Oppo-F17 PRO",
     category: "Branding",
-    video: "https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/videos/Oppo-F17 PRO.mp4",
+    video: "https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/videos/Oppo-F17 PRO.mp4", 
     img: "p_img_2",
     year: 2024,
   },
