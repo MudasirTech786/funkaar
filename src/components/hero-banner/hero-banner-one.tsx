@@ -31,14 +31,19 @@ const HeroBannerOne = () => {
           overflow: "hidden"
         }}
       >
-        <AutoLazy
-          src="assets/img/videos/Website banner.mp4"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-          }}
-        />
+        <video
+  src="assets/img/videos/Website banner.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+  }}
+/>
+
 
         {/* Optional overlay */}
         <div
