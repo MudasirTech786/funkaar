@@ -18,7 +18,7 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/videos/contact.mp4"
+                  src="/assets/img/videos/contact.mp4"
                   type="video/mp4"
                 />
               </video>
