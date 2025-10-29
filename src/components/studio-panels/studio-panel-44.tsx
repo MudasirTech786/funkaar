@@ -31,14 +31,14 @@ const testimonial_data = [
   {
     id: 2,
     logo: logo,
-    name: "Creative Director",
+    name: "Adam J Seaman, Project Manager - Greenbrilliance",
     // designation: "CEO | Gemini Skincare",
     desc: `"Funkaar is not just a production agency—they are our creative partners. Their team consistently delivers exceptional results, blending innovative storytelling with powerful visuals. Every project feels like an investment in the future of our brand."`,
   },
   {
     id: 3,
     logo: logo,
-    name: "CEO",
+    name: "Imran, CEO - Paradox London",
     // designation: "CEO | Gemini Skincare",
     desc: `"Funkaar redefines what it means to create high-quality content. Their strategic approach, paired with a creative edge, helped elevate our brand to new heights. They are not just another agency—they are THE agency for brands that want to make an impact."`,
   },
