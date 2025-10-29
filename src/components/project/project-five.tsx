@@ -175,7 +175,7 @@ const project_data = [
 // };
 
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 4;
 
 type Project = {
   id: number;

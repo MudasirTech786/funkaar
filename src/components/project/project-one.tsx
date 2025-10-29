@@ -5,13 +5,13 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 // project images
-import p_1 from "@/assets/img/inner-about/about/about-8.png";
+import p_1 from "@/assets/img/inner-about/about/about-8.jpeg";
 import p_2 from "@/assets/img/inner-about/about/about-3.jpg";
 import p_3 from "@/assets/img/inner-about/about/port-3.jpg";
-import p_4 from "@/assets/img/inner-about/about/shape-1.png";
+import p_4 from "@/assets/img/inner-about/about/shape-1.jpeg";
 import p_5 from "@/assets/img/inner-about/about/about-7.jpg";
-import p_6 from "@/assets/img/inner-about/about/about-6.png";
-import p_7 from "@/assets/img/inner-about/about/about-9.png";
+import p_6 from "@/assets/img/inner-about/about/about-6.jpeg";
+import p_7 from "@/assets/img/inner-about/about/about-9.jpeg";
 import p_8 from "@/assets/img/inner-about/about/about-10.jpg";
 import p_9 from "@/assets/img/inner-about/about/about-11.jpg";
 
