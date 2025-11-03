@@ -13,7 +13,6 @@ import HeaderEleven from "@/layouts/headers/header-eleven";
 import { ServiceItems } from "@/components/service/service-five";
 import ServiceHero from "@/components/service/service-hero";
 import ServiceSix from "@/components/service/service-six";
-import { BrandItems } from "@/components/brand/brand-two";
 import LineImgSlider from "@/components/line-text/line-img-slider";
 import BigText from "@/components/big-text";
 import { Leaf } from "@/components/svg";
