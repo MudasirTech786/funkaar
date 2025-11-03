@@ -38,7 +38,7 @@ export default function ProjectThree() {
                   preload="none"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 >
-                  <source src="assets/img/videos/Oppo-DVC.mp4" type="video/mp4" />
+                  <source src="/assets/img/videos/Oppo-DVC.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function ProjectThree() {
                   preload="none"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 >
-                  <source src="assets/img/videos/abacus.mp4" type="video/mp4" />
+                  <source src="/assets/img/videos/abacus.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function ProjectThree() {
                   preload="none"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 >
-                  <source src="assets/img/videos/Nilofer Shahid.mp4" type="video/mp4" />
+                  <source src="/assets/img/videos/Nilofer Shahid.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

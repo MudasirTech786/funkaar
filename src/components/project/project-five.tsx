@@ -13,14 +13,14 @@ const project_data = [
     title: "Bhegum Innayat Welfare Society",
     category: "Branding",
     img: "p_img_2",
-    video: "assets/img/videos/Bhegum Inayat Welfare Society.mp4",
+    video: "/assets/img/videos/Bhegum Inayat Welfare Society.mp4",
     year: 2024,
   },
   {
     id: 2,
     title: "Nilofer Shahid",
     category: "Branding",
-    video: "assets/img/videos/Nilofer Shahid.mp4",
+    video: "/assets/img/videos/Nilofer Shahid.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -28,7 +28,7 @@ const project_data = [
     id: 3,
     title: "Oppo-DVC",
     category: "Branding",
-    video: "assets/img/videos/Oppo-DVC.mp4",
+    video: "/assets/img/videos/Oppo-DVC.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -36,7 +36,7 @@ const project_data = [
     id: 4,
     title: "Oppo-F17 PRO",
     category: "Branding",
-    video: "assets/img/videos/Oppo-F17 PRO.mp4", 
+    video: "/assets/img/videos/Oppo-F17 PRO.mp4", 
     img: "p_img_2",
     year: 2024,
   },
@@ -44,7 +44,7 @@ const project_data = [
     id: 5,
     title: "Abacus consulting",
     category: "Branding",
-    video: "assets/img/videos/abacus.mp4",
+    video: "/assets/img/videos/abacus.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -52,7 +52,7 @@ const project_data = [
     id: 6,
     title: "Nilofer Shahid",
     category: "Concept",
-    video: "assets/img/videos/Rohma.mp4",
+    video: "/assets/img/videos/Rohma.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -60,7 +60,7 @@ const project_data = [
     id: 7,
     title: "Yamaha",
     category: "Branding",
-    video: "assets/img/videos/yamaha.mp4",
+    video: "/assets/img/videos/yamaha.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -68,7 +68,7 @@ const project_data = [
     id: 8,
     title: "Swyft",
     category: "Branding",
-    video: "assets/img/videos/Swyft.mp4",
+    video: "/assets/img/videos/Swyft.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -76,7 +76,7 @@ const project_data = [
     id: 9,
     title: "SOS Childrens Villages 2018",
     category: "Branding",
-    video: "assets/img/videos/SOS.mp4",
+    video: "/assets/img/videos/SOS.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -84,7 +84,7 @@ const project_data = [
     id: 10,
     title: "Seedout DVC",
     category: "Branding",
-    video: "assets/img/videos/seed_out.mp4",
+    video: "/assets/img/videos/seed_out.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -92,7 +92,7 @@ const project_data = [
     id: 11,
     title: "Oppo - Corporate Profile IOT devices",
     category: "Branding",
-    video: "assets/img/videos/Oppo - Corporate.mp4",
+    video: "/assets/img/videos/Oppo - Corporate.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -100,7 +100,7 @@ const project_data = [
     id: 12,
     title: "Monsanto",
     category: "Branding",
-    video: "assets/img/videos/monsanto.mp4",
+    video: "/assets/img/videos/monsanto.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -108,7 +108,7 @@ const project_data = [
     id: 13,
     title: "Karandaaz",
     category: "Branding",
-    video: "assets/img/videos/karandaaz.mp4",
+    video: "/assets/img/videos/karandaaz.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -116,7 +116,7 @@ const project_data = [
     id: 14,
     title: "Human Capital Index Pakistan",
     category: "Branding",
-    video: "assets/img/videos/human.mp4",
+    video: "/assets/img/videos/human.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -124,7 +124,7 @@ const project_data = [
     id: 15,
     title: "Hairoil-4th JUly-ishq_mobile",
     category: "Branding",
-    video: "assets/img/videos/hairoil.mp4",
+    video: "/assets/img/videos/hairoil.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -132,7 +132,7 @@ const project_data = [
     id: 16,
     title: "ADB (Asian Development Bank)",
     category: "Branding",
-    video: "assets/img/videos/adb.mp4",
+    video: "/assets/img/videos/adb.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -140,7 +140,7 @@ const project_data = [
     id: 17,
     title: "GreenBrilliance",
     category: "Branding",
-    video: "assets/img/videos/seed_out.mp4",
+    video: "/assets/img/videos/seed_out.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -148,7 +148,7 @@ const project_data = [
     id: 18,
     title: "Lums",
     category: "Branding",
-    video: "assets/img/videos/lums.mp4",
+    video: "/assets/img/videos/lums.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -156,7 +156,7 @@ const project_data = [
     id: 19,
     title: "Seed Out documentary",
     category: "Branding",
-    video: "assets/img/videos/seed_out.mp4",
+    video: "/assets/img/videos/seed_out.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -164,7 +164,7 @@ const project_data = [
     id: 20,
     title: "Select & Airlink",
     category: "Branding",
-    video: "assets/img/videos/Select.mp4",
+    video: "/assets/img/videos/Select.mp4",
     img: "p_img_2",
     year: 2024,
   },
@@ -232,22 +232,33 @@ export default function ProjectFive({ style_2 = false }: IProps) {
 
         {/* Pagination Controls */}
         <div className="d-flex justify-content-center gap-4">
-          <button
-            className="tp-btn-circle"
-            disabled={currentPage === 1}
-            onClick={() => setCurrentPage((prev) => prev - 1)}
-          >
-            Prev
-          </button>
-          <span className="text-white">Page {currentPage} of {totalPages}</span>
-          <button
-            className="tp-btn-circle"
-            disabled={currentPage === totalPages}
-            onClick={() => setCurrentPage((prev) => prev + 1)}
-          >
-            Next
-          </button>
-        </div>
+  <button
+    className="tp-btn-circle"
+    disabled={currentPage === 1}
+    onClick={() => {
+      setCurrentPage((prev) => prev - 1);
+      window.scrollTo({ top: 0, behavior: "smooth" }); // 🔹 Scroll to top
+    }}
+  >
+    Prev
+  </button>
+
+  <span className="text-white">
+    Page {currentPage} of {totalPages}
+  </span>
+
+  <button
+    className="tp-btn-circle"
+    disabled={currentPage === totalPages}
+    onClick={() => {
+      setCurrentPage((prev) => prev + 1);
+      window.scrollTo({ top: 0, behavior: "smooth" }); // 🔹 Scroll to top
+    }}
+  >
+    Next
+  </button>
+</div>
+
       </div>
     </div>
   );

@@ -32,17 +32,17 @@ const HeroBannerOne = () => {
         }}
       >
         <video
-  src="assets/img/videos/Website banner.mp4"
-  autoPlay
-  loop
-  muted
-  playsInline
-  style={{
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-  }}
-/>
+          src="/assets/img/videos/Website banner.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
 
 
         {/* Optional overlay */}

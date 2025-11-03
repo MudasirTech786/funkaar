@@ -113,7 +113,7 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
                   display: 'block',
                 }}
               >
-                <source src="assets/img/videos/Rohma.mp4" type="video/mp4" />
+                <source src="/assets/img/videos/Rohma.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
