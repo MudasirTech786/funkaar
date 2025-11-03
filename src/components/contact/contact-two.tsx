@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import ContactForm from "../form/contact-form";
-import Social from "../social/social";
-import shape from "@/assets/img/inner-about/about/shape-1.png";
 
 export default function ContactTwo() {
   return (
