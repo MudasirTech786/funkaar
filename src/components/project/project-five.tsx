@@ -140,7 +140,7 @@ const project_data = [
     id: 17,
     title: "GreenBrilliance",
     category: "Branding",
-    video: "/assets/img/videos/seed_out.mp4",
+    video: "/assets/img/home-01/hero/port-3_cygauz.mp4",
     img: "p_img_2",
     year: 2024,
   },

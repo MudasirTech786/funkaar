@@ -71,7 +71,7 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
             </div>
             <div className="col-xl-3 col-lg-5 col-md-6 mb-50">
               <div className="tp-footer-2-widget footer-col-2-3">
-                <h4 className="tp-footer-2-widget-title">Office</h4>
+                {/* <h4 className="tp-footer-2-widget-title">Office</h4> */}
                 {/* <div className="tp-footer-2-contact-item">
                   <span>
                     <a
@@ -84,7 +84,7 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 </div> */}
                 <div className="tp-footer-2-contact-item">
                   <span>
-                    <a href="tel:+1 771-777-4887">P: +1 771-777-4887</a>
+                    {/* <a href="tel:+1 771-777-4887">P: +1 771-777-4887</a> */}
                   </span>
                 </div>
                 <div className="tp-footer-2-contact-item">
