@@ -32,7 +32,7 @@ const HeroBannerOne = () => {
         }}
       >
         <video
-          src="/assets/img/videos/Website banner.mp4"
+          src="/assets/img/videos/Website.mp4"
           autoPlay
           loop
           muted

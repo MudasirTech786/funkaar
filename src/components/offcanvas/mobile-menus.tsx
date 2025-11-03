@@ -1,23 +1,42 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import menu_data from "@/data/menu-data";
-import shop_banner from '@/assets/img/menu/shop-menu/banner-1.jpg';
-import port_img from '@/assets/img/menu/portfolio-menu/portfolio.png';
+import shop_banner from "@/assets/img/menu/shop-menu/banner-1.jpg";
+import port_img from "@/assets/img/menu/portfolio-menu/portfolio.png";
 
 export default function MobileMenus() {
   const [navTitle, setNavTitle] = React.useState<string>("");
+  const [loading, setLoading] = React.useState<boolean>(false);
+  const router = useRouter();
 
-  //openMobileMenu
+  // Toggle menu open/close
   const openMobileMenu = (menu: string) => {
-    if (navTitle === menu) {
-      setNavTitle("");
-    } else {
-      setNavTitle(menu);
-    }
+    setNavTitle(navTitle === menu ? "" : menu);
   };
+
+  // Handle click + show loader
+  const handleNavigation = (link: string) => {
+    setLoading(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    router.push(link);
+    setTimeout(() => setLoading(false), 1200);
+  };
+
   return (
     <>
+      {/* 🔄 Fullscreen Loading Overlay */}
+      {loading && (
+        <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-black/80 text-white">
+          <div className="h-10 w-10 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
+          <p className="mt-4 text-lg font-semibold tracking-wide">
+            Loading...
+          </p>
+        </div>
+      )}
+
       <nav className="tp-main-menu-content">
         <ul>
           {menu_data.map((menu) => (
@@ -27,16 +46,30 @@ export default function MobileMenus() {
                 menu.home_menus || menu.portfolio_mega_menus
                   ? "has-homemenu"
                   : ""
-              } ${menu.home_menus ? "dropdown-opened" : ""}`}
+              }`}
             >
-              <a className="pointer" onClick={() => openMobileMenu(menu.title)}>
+              <a
+                className="pointer d-flex justify-content-between align-items-center"
+                onClick={() => openMobileMenu(menu.title)}
+              >
                 {menu.title}
                 <button className="dropdown-toggle-btn">
-                  <i className="fa-light fa-plus"></i>
+                  <i
+                    className={`fa-light ${
+                      navTitle === menu.title ? "fa-minus" : "fa-plus"
+                    }`}
+                  ></i>
                 </button>
               </a>
+
+              {/* 🧩 Home Mega Menu */}
               {menu.home_menus ? (
-                <div className="tp-submenu submenu tp-mega-menu" style={{ display: navTitle === menu.title ? "block" : "none"}}>
+                <div
+                  className="tp-submenu submenu tp-mega-menu"
+                  style={{
+                    display: navTitle === menu.title ? "block" : "none",
+                  }}
+                >
                   <div className="tp-menu-fullwidth">
                     <div className="tp-homemenu-wrapper">
                       <div className="row gx-25 row-cols-xl-6 row-cols-lg-2 row-cols-md-2 row-cols-1">
@@ -44,14 +77,28 @@ export default function MobileMenus() {
                           <div key={i} className="col homemenu">
                             <div className="homemenu-thumb-wrap mb-20">
                               <div className="homemenu-thumb fix">
-                                <Link href={hm.link}>
-                                  <Image src={hm.img} alt={hm.title} width={512} height={480} style={{ height: "100%" }} />
-                                </Link>
+                                <a
+                                  onClick={() => handleNavigation(hm.link)}
+                                  className="cursor-pointer"
+                                >
+                                  <Image
+                                    src={hm.img}
+                                    alt={hm.title}
+                                    width={512}
+                                    height={480}
+                                    style={{ height: "100%" }}
+                                  />
+                                </a>
                               </div>
                             </div>
                             <div className="homemenu-content text-center">
                               <h4 className="homemenu-title">
-                                <Link href={hm.link}>{hm.title}</Link>
+                                <a
+                                  onClick={() => handleNavigation(hm.link)}
+                                  className="cursor-pointer"
+                                >
+                                  {hm.title}
+                                </a>
                               </h4>
                             </div>
                           </div>
@@ -61,7 +108,12 @@ export default function MobileMenus() {
                   </div>
                 </div>
               ) : menu.pages_mega_menu ? (
-                <div className="tp-submenu submenu tp-mega-menu" style={{ display: navTitle === menu.title ? "block" : "none"}}>
+                <div
+                  className="tp-submenu submenu tp-mega-menu"
+                  style={{
+                    display: navTitle === menu.title ? "block" : "none",
+                  }}
+                >
                   <div className="tp-megamenu-wrapper">
                     <div className="row gx-50">
                       <div className="col-xl-8">
@@ -77,7 +129,14 @@ export default function MobileMenus() {
                                     {menu.pages_mega_menu.first.submenus.map(
                                       (sm, i) => (
                                         <li key={i}>
-                                          <Link href={sm.link}>{sm.title}</Link>
+                                          <a
+                                            onClick={() =>
+                                              handleNavigation(sm.link)
+                                            }
+                                            className="cursor-pointer"
+                                          >
+                                            {sm.title}
+                                          </a>
                                         </li>
                                       )
                                     )}
@@ -95,7 +154,14 @@ export default function MobileMenus() {
                                     {menu.pages_mega_menu.second.submenus.map(
                                       (sm, i) => (
                                         <li key={i}>
-                                          <Link href={sm.link}>{sm.title}</Link>
+                                          <a
+                                            onClick={() =>
+                                              handleNavigation(sm.link)
+                                            }
+                                            className="cursor-pointer"
+                                          >
+                                            {sm.title}
+                                          </a>
                                         </li>
                                       )
                                     )}
@@ -113,18 +179,18 @@ export default function MobileMenus() {
                               <Image
                                 src={shop_banner}
                                 alt="shop-banner"
-                                style={{height:'auto'}}
+                                style={{ height: "auto" }}
                               />
                             </div>
                             <div className="tp-shop-banner-content">
                               <h4 className="tp-shop-banner-title">Sale</h4>
                               <span>20% Off all Shoes</span>
-                              <Link
-                                className="tp-shop-btn"
-                                href="/shop-details/1"
+                              <a
+                                className="tp-shop-btn cursor-pointer"
+                                onClick={() => handleNavigation("/shop-details/1")}
                               >
                                 Shop Now
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -133,14 +199,19 @@ export default function MobileMenus() {
                   </div>
                 </div>
               ) : menu.portfolio_mega_menus ? (
-                <div className="tp-submenu submenu tp-mega-menu" style={{ display: navTitle === menu.title ? "block" : "none"}}>
+                <div
+                  className="tp-submenu submenu tp-mega-menu"
+                  style={{
+                    display: navTitle === menu.title ? "block" : "none",
+                  }}
+                >
                   <div className="tp-menu-fullwidth">
                     <div className="tp-megamenu-portfolio p-relative">
                       <div className="tp-megamenu-portfolio-banner">
                         <Image
                           src={port_img}
                           alt="port-img"
-                          style={{height:'auto'}}
+                          style={{ height: "auto" }}
                         />
                       </div>
                       <div className="row gx-50">
@@ -160,9 +231,14 @@ export default function MobileMenus() {
                                             <ul>
                                               {portSm.menu_lists.map((psm) => (
                                                 <li key={psm.title}>
-                                                  <Link href={psm.link}>
+                                                  <a
+                                                    onClick={() =>
+                                                      handleNavigation(psm.link)
+                                                    }
+                                                    className="cursor-pointer"
+                                                  >
                                                     {psm.title}
-                                                  </Link>
+                                                  </a>
                                                 </li>
                                               ))}
                                             </ul>
@@ -185,9 +261,14 @@ export default function MobileMenus() {
                                         <ul>
                                           {portSm2.menu_lists.map((psm) => (
                                             <li key={psm.title}>
-                                              <Link href={psm.link}>
+                                              <a
+                                                onClick={() =>
+                                                  handleNavigation(psm.link)
+                                                }
+                                                className="cursor-pointer"
+                                              >
                                                 {psm.title}
-                                              </Link>
+                                              </a>
                                             </li>
                                           ))}
                                         </ul>
@@ -210,10 +291,20 @@ export default function MobileMenus() {
                   </div>
                 </div>
               ) : menu.dropdown_menus ? (
-                <ul className="tp-submenu submenu" style={{ display: navTitle === menu.title ? "block" : "none"}}>
+                <ul
+                  className="tp-submenu submenu"
+                  style={{
+                    display: navTitle === menu.title ? "block" : "none",
+                  }}
+                >
                   {menu.dropdown_menus.map((mm, i) => (
                     <li key={i}>
-                      <Link href={mm.link}>{mm.title}</Link>
+                      <a
+                        onClick={() => handleNavigation(mm.link)}
+                        className="cursor-pointer"
+                      >
+                        {mm.title}
+                      </a>
                     </li>
                   ))}
                 </ul>
