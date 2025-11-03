@@ -13,7 +13,7 @@ export default function AboutUsHero() {
   return (
     <div
       className="ab-inner-hero-area ab-inner-hero-bg p-relative"
-      style={{backgroundImage: "url(https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/images/hero.jpg)"}}
+      style={{backgroundImage: "url(assets/img/image/hero.jpg)"}}
     >
       <div className="ab-inner-hero-scroll smooth">
         <a className="pointer" onClick={scrollTo}>

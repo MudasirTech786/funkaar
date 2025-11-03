@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import ProjectTextLine from "./project-text-line";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
@@ -114,7 +113,7 @@ const ProjectOne = ({ style_2 = false }: IProps) => {
                   display: 'block',
                 }}
               >
-                <source src="https://raw.githubusercontent.com/MudasirTech786/funkaarData/main/public/videos/Rohma.mp4" type="video/mp4" />
+                <source src="assets/img/videos/Rohma.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
