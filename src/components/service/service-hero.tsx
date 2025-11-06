@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 // image
-import ser_hero from "@/assets/img/inner-service/hero/hero-2.jpg";
+import ser_hero from "@/assets/img/inner-service/hero/banner.jpg";
 import ser_hero_shape from "@/assets/img/inner-service/hero/hero-shape-1.jpg";
 
 export default function ServiceHero() {

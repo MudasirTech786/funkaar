@@ -27,9 +27,14 @@ import b_20 from "@/assets/img/home-01/brand/brand-20.png";
 import b_21 from "@/assets/img/home-01/brand/brand-21.png";
 import b_22 from "@/assets/img/home-01/brand/brand-22.png";
 import b_23 from "@/assets/img/home-01/brand/brand-23.png";
+import b_26 from "@/assets/img/home-01/brand/brand-26.png";
+import b_27 from "@/assets/img/home-01/brand/brand-27.jpeg";
+import b_28 from "@/assets/img/home-01/brand/brand-28.jpg";
+import b_29 from "@/assets/img/home-01/brand/brand-29.jpg";
+import b_30 from "@/assets/img/home-01/brand/brand-30.png";
 
 
-const brand_images = [b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_10, b_11, b_12, b_13, b_14, b_15, b_16, b_17, b_18, b_19, b_20, b_21, b_22, b_23, b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_10, b_11, b_12, b_13, b_14, b_15, b_16, b_17, b_18, b_19, b_20, b_21, b_22, b_23];
+const brand_images = [b_26, b_27, b_28, b_29, b_30, b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_10, b_11, b_12, b_13, b_14, b_15, b_16, b_17, b_18, b_19, b_20, b_21, b_22, b_23, b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_10, b_11, b_12, b_13, b_14, b_15, b_16, b_17, b_18, b_19, b_20, b_21, b_22, b_23];
 
 export default function BrandSlider() {
   return (
