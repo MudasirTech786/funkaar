@@ -13,7 +13,7 @@ const ServiceOne: React.FC = () => {
               style={{ maxWidth: "700px" }}
             >
               <h4 className="tp-section-title tp_fade_bottom mb-4 text-black">
-                CREATIVE & CONTENT LABsssss
+                CREATIVE & CONTENT LAB
               </h4>
 
               <p
@@ -50,10 +50,11 @@ const ServiceOne: React.FC = () => {
                   borderRadius: "8px",
                 }}
               >
-                <source
+                {/* <source
                   src="/assets/img/home-01/hero/port-7_ifmuf2.mp4"
                   type="video/mp4"
-                />
+                /> */}
+                <source src="/assets/img/videos/Oppo-DVC.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

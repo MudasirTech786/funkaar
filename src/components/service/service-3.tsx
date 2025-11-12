@@ -1,41 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import ClickToPlayVideo from "@/components/ClickToPlayVideo";
-
-// service images
-import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
-import s_2 from "@/assets/img/home-01/service/service-icon-2.png";
-import s_3 from "@/assets/img/home-01/service/service-icon-3.png";
-import s_4 from "@/assets/img/home-01/service/service-icon-4.png";
-
-// service data
-const service_data = [
-  {
-    id: 1,
-    title: "CAPABILITIES",
-    desc: "We create with purpose, strategize with intent, and execute with impact.",
-    icon: s_1,
-  },
-  {
-    id: 2,
-    title: "CREATIVE & CONTENT LAB",
-    desc: "We craft compelling visuals, stories, and branding that captivate and convert.",
-    icon: s_2,
-  },
-  {
-    id: 3,
-    title: "DIGITAL MARKETING",
-    desc: "Data-driven strategies to maximize reach, engagement, and ROI across all platforms.",
-    icon: s_3,
-  },
-  {
-    id: 4,
-    title: "STRATEGY",
-    desc: "Research-backed roadmaps that drive growth, impact, and long-term success.",
-    icon: s_4,
-  },
-];
 
 const ServiceOne = () => {
   return (
@@ -102,19 +65,3 @@ const ServiceOne = () => {
 };
 
 export default ServiceOne;
-
-{/* <div className="tp-service-right-wrap">
-              {service_data.map((s) => (
-                <div
-                  key={s.id}
-                  className="tp-service-item d-flex align-items-start mb-75 tp_fade_bottom"
-                >
-                  <div className="tp-service-content">
-                    <h4 className="tp-service-title-sm mb-2">
-                      <b className="tp-service-title-sm mb-3">{s.title}</b>
-                    </h4>
-                    <p>{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div> */}
