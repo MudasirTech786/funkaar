@@ -41,21 +41,14 @@ const ServiceOne: React.FC = () => {
                 muted
                 autoPlay
                 playsInline
-                preload="auto"
-                poster="/assets/img/home-01/hero/preview.jpg" // optional fallback image
+                preload="none"
                 style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                  borderRadius: "8px",
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '8px' // optional for soft corners
                 }}
               >
-                {/* <source
-                  src="/assets/img/home-01/hero/port-7_ifmuf2.mp4"
-                  type="video/mp4"
-                /> */}
-                <source src="/assets/img/videos/Oppo-DVC.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
+                <source src="/assets/img/videos/port-7.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
