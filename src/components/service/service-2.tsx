@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ClickToPlayVideo from "@/components/ClickToPlayVideo";
 
 // service images
 import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
@@ -37,25 +36,14 @@ const service_data = [
   },
 ];
 
-const ServiceOne = () => {
+const ServiceOne: React.FC = () => {
   return (
     <div className="tp-service-area pt-180 pb-80 tp-btn-trigger">
       <div className="container container-1630">
         <div className="row align-items-center">
+
           {/* Left Column */}
           <div className="col-xl-6 col-lg-6 mx-auto text-center">
-            {/* Icon */}
-            {/* <div className="d-flex justify-content-center align-items-center mb-3">
-              <img
-                src="/assets/img/home-01/service/service-icon-1.png"
-                alt="Creative Icon"
-                width={100}
-                height={100}
-                style={{ objectFit: "contain" }}
-              />
-            </div> */}
-
-            {/* Title & Description */}
             <div
               className="tp-service-title-box p-relative mx-auto"
               style={{ maxWidth: "700px" }}
@@ -73,47 +61,62 @@ const ServiceOne = () => {
             </div>
           </div>
 
-
           {/* Right Column */}
           <div className="col-xl-6 col-lg-6">
-            <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
+            <div
+              className="tp-hero-bottom-img"
+              style={{
+                width: "100%",
+                height: "100%",
+                overflow: "hidden",
+                borderRadius: "8px",
+              }}
+            >
               <video
                 loop
                 muted
                 autoPlay
                 playsInline
-                preload="none"
+                preload="auto"
+                poster="/assets/img/home-01/hero/preview.jpg" // optional fallback image
                 style={{
-                  width: '100%',
-                  height: '100%',
-                  borderRadius: '8px' // optional for soft corners
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  borderRadius: "8px",
                 }}
               >
-                 <source src="/assets/img/home-01/hero/port-7_ifmuf2.mp4" type="video/mp4" />
+                <source
+                  src="/assets/img/home-01/hero/port-7_ifmuf2.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
               </video>
             </div>
           </div>
 
         </div>
+
+        {/* Optional: Display services list */}
+        <div className="tp-service-right-wrap mt-5">
+          {service_data.map((s) => (
+            <div
+              key={s.id}
+              className="tp-service-item d-flex align-items-start mb-4 tp_fade_bottom"
+            >
+              <div className="tp-service-content">
+                <h4 className="tp-service-title-sm mb-2">
+                  <b>{s.title}</b>
+                </h4>
+                <p>{s.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
     </div>
   );
 };
 
 export default ServiceOne;
-
-{/* <div className="tp-service-right-wrap">
-              {service_data.map((s) => (
-                <div
-                  key={s.id}
-                  className="tp-service-item d-flex align-items-start mb-75 tp_fade_bottom"
-                >
-                  <div className="tp-service-content">
-                    <h4 className="tp-service-title-sm mb-2">
-                      <b className="tp-service-title-sm mb-3">{s.title}</b>
-                    </h4>
-                    <p>{s.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div> */}
