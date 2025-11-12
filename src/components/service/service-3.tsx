@@ -78,20 +78,23 @@ const ServiceOne = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="tp-hero-bottom-img" style={{ width: '100%', height: '100%', overflow: 'hidden' }}>
               <video
+                onLoadedData={() => console.log("Video loaded")}
+                onError={(e) => console.error("Video error", e)}
                 loop
                 muted
                 autoPlay
                 playsInline
-                preload="none"
+                preload="auto"
                 style={{
                   width: '100%',
                   height: '100%',
-                  borderRadius: '8px' // optional for soft corners
+                  objectFit: 'cover',
+                  borderRadius: '8px'
                 }}
               >
                 <source src="/assets/img/videos/Oppo-DVC.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
               </video>
-
             </div>
           </div>
 
